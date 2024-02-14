@@ -4,33 +4,22 @@ function BookList({ priceTag, addBookToCart }) {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    const url = `https://www.googleapis.com/books/v1/volumes?q=language:english`;
-
-    fetch(url)
-      .then((resp) => {
-        if (!resp.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return resp.json();
+    fetch('http://localhost:3000/items')
+      .then(response => response.json())
+      .then(data => {
+        setBooks(data);
+        console.log(data);
       })
-      .then((response) => {
-        setBooks(response.items || []);
-      })
-      .catch((error) => {
-        console.error('Error fetching books:', error);
+      .catch(error => {
+        console.error('Error fetching book data:', error);
       });
   }, []);
-
-  function handlePriceTag(bookId) {
-    priceTag(bookId);
-  }
 
   function handleAddBookToCart(bookId) {
     addBookToCart(bookId);
   }
 
   return (
-    <>
     <div>
       <h2 style={{ color: 'white', fontSize: '40px', marginBottom: '10px' }}>BOOK LIST</h2>
       {books.length > 0 ? (
@@ -42,6 +31,7 @@ function BookList({ priceTag, addBookToCart }) {
             marginBottom: '20px',
             backgroundColor: 'white',
             display: 'grid',
+            gridTemplateColumns: '1fr 1fr 1fr',
             gap: '3rem',
             alignItems: 'center',
             textAlign: 'center',
@@ -51,9 +41,9 @@ function BookList({ priceTag, addBookToCart }) {
             paddingInlineStart: '20px',
           }}
         >
-          {books.map((book) => (
+          {books.map((book, index) => (
             <div
-              key={book.id}
+              key={book.title || index}
               style={{
                 border: '1px solid gray',
                 padding: '10px',
@@ -61,60 +51,46 @@ function BookList({ priceTag, addBookToCart }) {
                 borderRadius: '5px',
               }}
             >
-              <h3>{book.volumeInfo.title}</h3>
-              <h4>{book.volumeInfo.authors.join(', ')}</h4>
-              <p>{book.volumeInfo.description}</p>
-              {book.saleInfo && book.saleInfo.listPrice && (
+              <h3>{book.volumeInfo?.title || 'Unknown Title'}</h3>
+              <h4>{book.volumeInfo?.authors ? book.volumeInfo.authors.join(', ') : 'Unknown Author'}</h4>
+              <p>{book.volumeInfo?.description ? book.volumeInfo.description : 'No description available'}</p>
+              {book.saleInfo && book.saleInfo.saleability === 'FOR_SALE' && book.saleInfo.listPrice ? (
                 <p>
-                  Price: {book.saleInfo.listPrice.amount}{' '}
-                  {book.saleInfo.listPrice.currencyCode}
+                  Price: {book.saleInfo.listPrice.amount} {book.saleInfo.listPrice.currencyCode}
                 </p>
+              ) : (
+                <p>Not for sale</p>
               )}
               <img
-                src={book.volumeInfo.imageLinks?.thumbnail}
-                alt={book.volumeInfo.title}
+                src={book.volumeInfo?.imageLinks?.thumbnail || ''}
+                alt={book.volumeInfo?.title || 'No Title'}
                 style={{ maxWidth: '200px' }}
               />
               <div>
-                <div>
-                  <button
-                    style={{
-                      marginRight: '10px',
-                      backgroundColor: 'orange',
-                      color: 'black',
-                      border: 'none',
-                      padding: '5px 10px',
-                      borderRadius: '5px',
-                      cursor: 'pointer',
-                    }}
-                    onClick={() => handlePriceTag(book.id)}
-                  >
-                    59 USD
-                  </button>
-                  <button
-                    style={{
-                      backgroundColor: 'black',
-                      color: 'white',
-                      border: 'none',
-                      padding: '5px 10px',
-                      borderRadius: '5px',
-                      cursor: 'pointer',
-                    }}
-                    onClick={() => handleAddBookToCart(book.id)}
-                  >
-                    Add To Cart
-                  </button>
-                </div>
+                <button
+                  style={{
+                    backgroundColor: 'black',
+                    color: 'white',
+                    border: 'none',
+                    padding: '5px 10px',
+                    borderRadius: '5px',
+                    cursor: 'pointer',
+                  }}
+                  onClick={() => handleAddBookToCart(book.id)}
+                >
+                  Add To Cart
+                </button>
               </div>
-            </div>
+              </div>
           ))}
         </div>
       ) : (
         <p>Loading...</p>
       )}
     </div>
-    </>
   );
 }
 
 export default BookList;
+
+
