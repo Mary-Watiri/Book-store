@@ -1,35 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState, useEffect } from 'react';
+import NavBar from './NavBar.jsx';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  const [books, setBooks] = useState([]);
+  const [filteredBooks, setFilteredBooks] = useState([]);
+  const [pageTitle] = useState("Book App");
+
+  useEffect(() => {
+    fetchBooks();
+  }, []);
+
+  const fetchBooks = async () => {
+    try {
+      const response = await fetch('http://localhost:3000/items');
+      const data = await response.json();
+      setBooks(data);
+      setFilteredBooks(data);
+    } catch (error) {
+      console.error('Error fetching books:', error);
+    }
+  };
+
+  const handleSearch = async (searchTerm) => {
+    try {
+      const response = await fetch(`http://localhost:3000/items?name=${searchTerm}`);
+      const data = await response.json();
+      setFilteredBooks(data);
+    } catch (error) {
+      console.error('Error searching books:', error);
+    }
+  };
 
   return (
     <>
+      <header>
+        <h1 style={{ textAlign: 'left' }}>{pageTitle}</h1>
+      </header>
+      <NavBar handleSearch={handleSearch} />
+
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h2>Books</h2>
+        <ul>
+          {filteredBooks.map((book) => (
+            <li key={book.id}>{book.name}</li>
+          ))}
+        </ul>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
