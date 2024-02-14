@@ -45,27 +45,32 @@ function BookList({ addBookToCart }) {
             <div
               key={book.title || index}
               style={{
-                border: '1px solid gray',
+                border: '5px solid black',
                 padding: '10px',
                 marginBottom: '10px',
-                borderRadius: '5px',
+                borderRadius: '9px',
               }}
             >
               <h3>{book.volumeInfo?.title || 'Unknown Title'}</h3>
               <h4>{book.volumeInfo?.authors ? book.volumeInfo.authors.join(', ') : 'Unknown Author'}</h4>
               <p>{book.volumeInfo?.description ? book.volumeInfo.description : 'No description available'}</p>
-              {book.saleInfo && book.saleInfo.listPrice && book.saleInfo.listPrice.amount ? (
-  <p>
-    Price: {book.saleInfo.listPrice.amount} {book.saleInfo.listPrice.currencyCode}
-  </p>
-) : book.saleInfo && book.saleInfo.specifiedPrice && book.saleInfo.specifiedPrice.amount ? (
-  <p>
-    Price: {book.saleInfo.specifiedPrice.amount} {book.saleInfo.specifiedPrice.currencyCode}
-  </p>
-) : (
-  <p>Price: Unknown</p>
-)}
-             <img
+              {book.volumeInfo && book.volumeInfo.categories ? (
+                <p>Category: {book.volumeInfo.categories.join(', ')}</p>
+              ) : (
+                <p>Category: Unknown</p>
+              )}
+            {book.saleInfo && book.saleInfo.listPrice && book.saleInfo.listPrice.amount ? (
+                <p>
+                    Price: {book.saleInfo.listPrice.amount} {book.saleInfo.listPrice.currencyCode}
+                </p>
+                ) : book.saleInfo && book.saleInfo.specifiedPrice && book.saleInfo.specifiedPrice.amount ? (
+                <p>
+                    Price: {book.saleInfo.specifiedPrice.amount} {book.saleInfo.specifiedPrice.currencyCode}
+                </p>
+                ) : (
+                <p>Price: Not for Sale</p>
+                )}
+                 <img
                src={book.volumeInfo?.imageLinks?.thumbnail || ''}
                 alt={book.volumeInfo?.title || 'No Title'}
                 style={{ maxWidth: '200px' }}

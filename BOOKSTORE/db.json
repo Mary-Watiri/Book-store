@@ -61,9 +61,7 @@
         },
         "pageCount": 511,
         "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
+        "categories": [ "Computers" ],
         "language": "en",
         "previewLink": "http://books.google.com/books?id=nzLABAAAQBAJ&pg=PA415&dq=lang%3Den&hl=&cd=2&source=gbs_api",
         "infoLink": "http://books.google.com/books?id=nzLABAAAQBAJ&dq=lang%3Den&hl=&source=gbs_api",
@@ -99,17 +97,15 @@
         "imageLinks": {
           "smallThumbnail": "http://books.google.com/books/content?id=VfcX9wJEH3YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
           "thumbnail": "http://books.google.com/books/content?id=VfcX9wJEH3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }
-     },
+        },
         "pageCount": 352,
         "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
+        "categories": [ "Computers" ],
         "language": "en",
         "previewLink": "http://books.google.com/books?id=VfcX9wJEH3YC&pg=PT145&dq=lang%3Den&hl=&cd=7&source=gbs_api",
         "infoLink": "http://books.google.com/books?id=VfcX9wJEH3YC&dq=lang%3Den&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Practical_RDF.html?hl=&id=VfcX9wJEH3YC",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Practical_RDF.html?hl=&id=VfcX9wJEH3YC"
+      },
         "saleInfo": {
           "saleability": "FOR_SALE",
           "listPrice": {
@@ -153,7 +149,10 @@
           "smallThumbnail": "http://books.google.com/books/content?id=5H9FAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
           "thumbnail": "http://books.google.com/books/content?id=5H9FAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
-        "pageCount": 1462
+        "pageCount": 1462,
+        "categories": [
+          "English language"
+        ]
              },
         "language": "en",
         "previewLink": "http://books.google.com/books?id=5H9FAAAAcAAJ&pg=PA1345&dq=lang%3Den&hl=&cd=8&source=gbs_api",
@@ -254,6 +253,9 @@
           "thumbnail": "http://books.google.com/books/content?id=l_SQvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         "pageCount": 456,
+        "categories": [
+          "English language"
+        ],
         "printType": "BOOK"
       },
         "language": "en",
@@ -2145,7 +2147,542 @@
       "accessViewStatus": "FULL_PUBLIC_DOMAIN",
       "quoteSharingAllowed": false
     }
-  }
-]
+  },
+{
+      "id": "r43TCQAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/r43TCQAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE First Language English Teacher's Resource",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2014-09-11",
+        "description": "Up-to-date resources providing full coverage of Cambridge IGCSE® First Language English (0500 and 0522) for first examination in 2015. This standalone, photocopiable Teacher's Resource Book provides a complete solution to teaching the Cambridge IGCSE First Language English. It contains teaching resources not linked to the coursebook or workbook topics, so it can be used independently or to supplement teaching using the other components in the suite. It contains 28 themed units grouped into six parts focusing on the following skills: Reading comprehension, Writers' effects, Summary, Directed writing, Composition and Coursework. The Teacher's Resource Book includes practical advice for teachers as well as worksheets with answers and full lesson plans. A microsite provides free online resources to support the course.",
+        "pageCount": 177,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=r43TCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=r43TCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=r43TCQAAQBAJ&printsec=frontcover&dq=languageenglish&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=r43TCQAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_T.html?hl=&id=r43TCQAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 70,
+          "currencyCode": "USD"
+        }
+    },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_T-sample-pdf.acsm?id=r43TCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=r43TCQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It contains teaching resources not linked to the coursebook or workbook topics, so it can be used independently or to supplement teaching using the other components in the suite."
+      }
+    },
+    {
+      "id": "RgdZDwAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RgdZDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE® First Language English Language and Skills Practice Book",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2018-05-17",
+        "description": "Fully updated, flexible resources taking an active-learning approach that encourages students to aim higher in the 0500, 0524 and 0990 syllabuses. Explore the mysterious River Congo in Joseph Conrad's Heart of Darkness, meet Noppakhoa - the elephant who loves to paint, and learn fiery facts about rockets. Through interesting topics and exam-style questions, this write-in language skills and practice book provides students with the grammar practice they need for the course and beyond. The clear layout of the book makes focussing on particular grammatical concepts easy, allowing teachers to tailor lessons to their class. Suggested answers to questions are at the back of the book.",
+        "pageCount": 145,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RgdZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RgdZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=RgdZDwAAQBAJ&printsec=frontcover&dq=languageenglish&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=RgdZDwAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_L.html?hl=&id=RgdZDwAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 30,
+          "currencyCode": "USD"
+        }
+    },      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_L-sample-pdf.acsm?id=RgdZDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RgdZDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The clear layout of the book makes focussing on particular grammatical concepts easy, allowing teachers to tailor lessons to their class. Suggested answers to questions are at the back of the book."
+      }
+    },
+    {
+      "id": "6a4EAAAAMAAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6a4EAAAAMAAJ",
+      "volumeInfo": {
+        "title": "The State of the Language",
+        "subtitle": "English Observed",
+        "authors": [
+          "Philip Howard"
+        ],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "1985",
+        "description": "Is the English language in decline? Many people seem to think so--but Philip Howard isn't one of them. The Literary Editor of The Times of London, Howard takes a robust, commonsensical view of the changes that are happening in English. His is not the Panglossian attitude that all is neccessarily for the best in the best of all possible languages, but he does feel that change is necessary--and healthy--in any living language. Howard here examines the language in its various branches and categories, such as grammar and pronunciation, spelling and punctuation, dialect and slang. He discusses the effect the new technologies, from cable TV to photocomposition, are having on the mother tongue, and he examines the new dialects that are coming into use. He navigates the back streets of euphemism and the broad, boring boulevards of cliche. He asks whether the language is actually changing as fast as we suppose, and, if so, why. Howard argues that as far as we can, we should strive to direct and control the changes in English in ways that increase its power. And where we can't help it, he says, we should lie back and enjoy its immense richness, which is unrivaled by any other language. Rather than have us wring our hands, Philip Howard entreats us, with his customary with and erudition, to use our tongues in concert with our brains. About the Author: Philip Howard is the author of New Words for Old, Weasel Words, Words Fail Me, and, most recently, A Word in Your Ear.",
+        "pageCount": 200,
+        "printType": "BOOK",
+        "categories": [
+          "English language"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6a4EAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6a4EAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6a4EAAAAMAAJ&q=languageenglish&dq=languageenglish&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=6a4EAAAAMAAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_State_of_the_Language.html?hl=&id=6a4EAAAAMAAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 20,
+          "currencyCode": "USD"
+        }
+    },      "accessInfo": {
+        "country": "KE",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6a4EAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "About the Author: Philip Howard is the author of New Words for Old, Weasel Words, Words Fail Me, and, most recently, A Word in Your Ear."
+      }
+    },
+    {
+      "id": "6QAPBAAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6QAPBAAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE First Language English Workbook",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2014-08-14",
+        "description": "Up-to-date resources providing full coverage of Cambridge IGCSE® First Language English (0500 and 0522) for first examination in 2015. This updated, write-in Workbook can be used for independent learning, for homework tasks or revision. It contains text extracts from around the world with linked exercises for students to practise the skills they need for the Cambridge IGCSE. Exercises are grouped into 12 diverse units on cross-curricula topics which are not linked to the Coursebook themes, so students remain engaged in the reading material. The Workbook has been completely updated in line with the new syllabus. It is particularly suitable for students who need additional support with language and grammar. A microsite provides free online resources to support the course.",
+        "pageCount": 135,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6QAPBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6QAPBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6QAPBAAAQBAJ&printsec=frontcover&dq=languageenglish&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=6QAPBAAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_W.html?hl=&id=6QAPBAAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 130,
+          "currencyCode": "USD"
+        }
+    },      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_W-sample-pdf.acsm?id=6QAPBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6QAPBAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Exercises are grouped into 12 diverse units on cross-curricula topics which are not linked to the Coursebook themes, so students remain engaged in the reading material. The Workbook has been completely updated in line with the new syllabus."
+      }
+    },
+    {
+      "id": "RAdZDwAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RAdZDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE® First Language English Coursebook",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2018-05-17",
+        "description": "Fully updated, flexible resources taking an active-learning approach that encourages students to aim higher in the 0500, 0524 and 0990 syllabuses. With travel writing, magazine articles, blogs and extracts from writers such as Roald Dahl and D. H. Lawrence, this coursebook helps students develop their English Language skills through an active, communicative approach. The first unit in each part covers text analysis, summary writing and note-taking. The second deals with directed writing and the third looks at descriptive and narrative composition and includes suggestions for coursework topics if your school follows this pathway. Suggested answers to coursebook questions are included in the teacher's book.",
+        "pageCount": 185,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RAdZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RAdZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=RAdZDwAAQBAJ&pg=PT30&dq=languageenglish&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=RAdZDwAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_C.html?hl=&id=RAdZDwAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 10,
+          "currencyCode": "USD"
+        }
+    },     
+     "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_C-sample-pdf.acsm?id=RAdZDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RAdZDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... and structure of the programme. □ Explain the aims and what is involved. □ Comment on the benefits of taking part and give examples of your own. 3 Give your talk to the class, and be prepared. Cambridge IGCSE First \u003cb\u003eLanguage English\u003c/b\u003e."
+      }
+    },
+    {
+      "id": "iY3TCQAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iY3TCQAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE First Language English Coursebook with Free Digital Content",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2014-07-10",
+        "description": "Up-to-date resources providing full coverage of Cambridge IGCSE® First Language English (0500 and 0522) for first examination in 2015. This Fourth edition Coursebook is designed to support the Cambridge IGCSE First Language English (0500) and Cambridge International Level 1/Level 2 Certificate First Language English (0522). It teaches all the skills required for the Cambridge IGCSE and includes activities on a variety of engaging topics, set out in 14 lively, full-colour units. All our supporting resources, like audio files and answer sheets, have now moved to Cambridge GO. Go to Cambridge GO to register and access files for any of your Cambridge titles. If you already have an account, just log in and go to 'add new resources'.",
+        "pageCount": 161,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iY3TCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iY3TCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=iY3TCQAAQBAJ&pg=PA30&dq=languageenglish&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=iY3TCQAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_C.html?hl=&id=iY3TCQAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 8,
+          "currencyCode": "USD"
+        }
+    },     
+     "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_C-sample-pdf.acsm?id=iY3TCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iY3TCQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... World Economic Forum, an international non-protmaking foundation intended to promote entrepreneurialism. 33 Schoolsnet.com The site at www.schoolsnet.com provides educational content for. Cambridge IGCSE First \u003cb\u003eLanguage English\u003c/b\u003e."
+      }
+    },
+    {
+      "id": "73IiAgAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/73IiAgAAQBAJ",
+      "volumeInfo": {
+        "title": "We Do Language: English Variation in the Secondary English Classroom",
+        "authors": [
+          "Anne H. Charity Hudley",
+          "Christine Mallinson"
+        ],
+        "publisher": "Teachers College Press",
+        "publishedDate": "2013-11-29",
+        "description": "We Do Language builds on the authors' highly acclaimed first collaboration, Understanding English Language Variation in U.S. Schools, and examines the need to integrate linguistically informed teaching into the secondary English classroom. The book includes specific information about the language varieties students bring with them to school so that educators can better assist students in developing the literacy skills necessry for the Common Core State Standards. This resource features concrete strategies, models, and vignettes, as well as classroom materials developed by English educators for English educators.",
+        "pageCount": 177,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=73IiAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=73IiAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=73IiAgAAQBAJ&pg=PR7&dq=languageenglish&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=73IiAgAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/We_Do_Language_English_Variation_in_the.html?hl=&id=73IiAgAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 50,
+          "currencyCode": "USD"
+        }
+    },    
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/We_Do_Language_English_Variation_in_the-sample-pdf.acsm?id=73IiAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=73IiAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eLanguage: English\u003c/b\u003e Language Variation in the Secondary English Classroom, they have penned a volume that lays out in an accessible, pragmatic, and adaptable way the thorny problem space that secondary English/language arts professionals&nbsp;..."
+      }
+    },
+    {
+      "id": "tEboMJM-qEUC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tEboMJM-qEUC",
+      "volumeInfo": {
+        "title": "Dictionary of the Hausa Language: English-Hausa",
+        "authors": [
+          "Charles Henry Robinson"
+        ],
+        "publishedDate": "1900",
+        "description": "Hausa Language",
+        "pageCount": 236,
+        "printType": "BOOK",
+        "categories": [
+          "English language"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tEboMJM-qEUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tEboMJM-qEUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=tEboMJM-qEUC&pg=PA24&dq=languageenglish&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=tEboMJM-qEUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tEboMJM-qEUC"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=tEboMJM-qEUC&rdid=book-tEboMJM-qEUC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 40,
+          "currencyCode": "USD"
+        }
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Dictionary_of_the_Hausa_Language_English.epub?id=tEboMJM-qEUC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tEboMJM-qEUC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "id": "asva9hdFtLYC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/asva9hdFtLYC",
+      "volumeInfo": {
+        "title": "School Dictionary of the German Language: English-German",
+        "authors": [
+          "W. & R. Chambers Ltd"
+        ],
+        "publishedDate": "1881",
+        "description": "Germany Language",
+        "pageCount": 518,
+        "printType": "BOOK",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=asva9hdFtLYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=asva9hdFtLYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=asva9hdFtLYC&pg=PT6&dq=languageenglish&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=asva9hdFtLYC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=asva9hdFtLYC"
+      },
+      "saleInfo": {
+        "country": "KE",
+          "saleability": "FOR_SALE",
+          "specifiedPrice": {
+            "amount": 40,
+            "currencyCode": "USD"
+          },
+        "buyLink": "https://play.google.com/store/books/details?id=asva9hdFtLYC&rdid=book-asva9hdFtLYC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/School_Dictionary_of_the_German_Language.epub?id=asva9hdFtLYC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=asva9hdFtLYC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "id": "4uIUAAAAYAAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4uIUAAAAYAAJ",
+      "volumeInfo": {
+        "title": "A Dictionary of the Central Nicobarese Language (English-Nicobarese and Nicobarese-English), with Appendices Containing a Comparison of Synonymous Words in the Remaining Nicobarese Forms and Other Matters, Preceded by Notes on the Grammar of the Central Form",
+        "authors": [
+          "Edward Horace Man"
+        ],
+        "publishedDate": "1889",
+        "description": "The Dictionary",
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "English language"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=4uIUAAAAYAAJ&pg=PP2&dq=languageenglish&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "KE",
+          "saleability": "FOR_SALE",
+          "specifiedPrice": {
+            "amount": 140,
+            "currencyCode": "USD"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ&rdid=book-4uIUAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/A_Dictionary_of_the_Central_Nicobarese_L.epub?id=4uIUAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/A_Dictionary_of_the_Central_Nicobarese_L.pdf?id=4uIUAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3Q1ZbRVgZivgdZ_44ySY6wEQfsxQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4uIUAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... CHRISTO ولة לופוד 47 HAR ARDIAN FROM THE BEQUEST OF FRANCIS B. HAYES Class of 1839 This fund is $ 10,000 and its income is to be used For the purchase of books for the Library &quot; C A DICTIONARY OF THE CENTRAL NICOBARESE \u003cb\u003eLANGUAGE ( ENGLISH\u003c/b\u003e."
+      }
+    }
+  ]
 }
-
