@@ -1,44 +1,48 @@
+
+/* Styling for the header and navbar */
 header {
   width: 100%;
-  height: 30%;
-  background-color: grey;
-  padding: 10px;
+  height: 10%;
 }
 
-/* Styling the navbar */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; 
   align-items: center;
-  background-color: grey; /* Set background color for the navbar */
-  padding: 10px;
-  width: 100%; /* Stretching the navbar from left to right */
+  background-color: rgba(128, 128, 128, 0.5); 
+  width: 90%; 
+  height: 10%; 
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/* Aligning the page title to the left side of the navbar */
-.page-title {
-  text-align: left;
-  margin-left: 20px; /* Add left margin to the page title */
+
+/* Styling for the BOOK-STORE heading */
+.navbar h1 {
+  color: white;
+  margin-left: 20px; 
 }
 
-/* Styling the search form */
+/* Styling for the search form */
 .navbar form {
   display: flex;
   align-items: center;
 }
 
-/* Styling the input field */
+/* Styling for the input field */
 .navbar input[type="text"] {
   padding: 8px;
-  margin-right: 5px;
+  margin: 0 10px; 
   border-radius: 5px;
   border: 1px solid #ccc;
 }
 
-/* Styling the search button */
+/* Styling for the search button */
 .navbar button {
   padding: 8px 15px;
-  background-color: #007bff; /* Blue color for the button */
+  background-color: rgba(0, 123, 255, 0.5);
   color: white;
   border: none;
   border-radius: 5px;
@@ -47,18 +51,27 @@ header {
 
 /* Button hover effect */
 .navbar button:hover {
-  background-color: #0056b3; /* Darker shade of blue on hover */
+  background-color: rgba(0, 123, 255, 0.8); 
 }
 
-/* Styling other elements */
-.card {
-  margin-top: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
+/* Styling for the categories */
+.navbar .categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for category buttons */
+.navbar .categories button {
+  background-color: rgba(128, 128, 128, 0.5); 
+  color: white;
+  border: none;
   border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px; 
 }
 
-.read-the-docs {
-  margin-top: 20px;
-  font-style: italic;
+/* Category button hover effect */
+.navbar .categories button:hover {
+  background-color: rgba(128, 128, 128, 0.8); 
 }
