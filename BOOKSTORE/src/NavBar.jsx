@@ -19,12 +19,13 @@ const Navbar = () => {
 
   const fetchBooks = async () => {
     try {
-      const response = await fetch(
-        'https://openlibrary.org/search.json?title=percy%20jackson'
-      );
+      const response = await fetch('http://localhost:3000/items');
+      if (!response.ok) {
+        throw new Error('Failed to fetch data from API');
+      }
       const data = await response.json();
-      setBooks(data.docs);
-      setFilteredBooks(data.docs);
+      setBooks(data.items);
+      setFilteredBooks(data.items);
     } catch (error) {
       console.error('Error fetching books:', error);
     }
@@ -32,7 +33,7 @@ const Navbar = () => {
 
   const handleCategoryClick = (category) => {
     const filtered = books.filter(book =>
-      book.subject && book.subject.includes(category)
+      book.volumeInfo.categories && book.volumeInfo.categories.includes(category)
     );
     setFilteredBooks(filtered);
   };
@@ -41,7 +42,7 @@ const Navbar = () => {
     const searchTerm = e.target.value.toLowerCase();
     setSearchTerm(searchTerm);
     const filtered = books.filter(book =>
-      book.title.toLowerCase().includes(searchTerm)
+      book.volumeInfo.title.toLowerCase().includes(searchTerm)
     );
     setFilteredBooks(filtered);
   };
@@ -66,9 +67,13 @@ const Navbar = () => {
         ))}
       </div>
       <div className="navbar-books">
-        {filteredBooks.map(book => (
-          <div key={book.key}>{book.title}</div>
-        ))}
+        {filteredBooks.length > 0 ? (
+          filteredBooks.map(book => (
+            <div key={book.id}>{book.volumeInfo.title}</div>
+          ))
+        ) : (
+          <div>No books found</div>
+        )}
       </div>
     </nav>
   );
