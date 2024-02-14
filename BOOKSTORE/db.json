@@ -153,9 +153,8 @@
           "smallThumbnail": "http://books.google.com/books/content?id=5H9FAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
           "thumbnail": "http://books.google.com/books/content?id=5H9FAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
-        "pageCount": 1462,
-        "contentVersion": "0.5.5.0.full.1"
-       },
+        "pageCount": 1462
+             },
         "language": "en",
         "previewLink": "http://books.google.com/books?id=5H9FAAAAcAAJ&pg=PA1345&dq=lang%3Den&hl=&cd=8&source=gbs_api",
         "infoLink": "https://play.google.com/store/books/details?id=5H9FAAAAcAAJ&source=gbs_api",
@@ -544,11 +543,6 @@
       "categories": [
         "Fiction"
       ],
-      "contentVersion": "1.2.3.0.preview.2",
-      "panelizationSummary": {
-        "containsEpubBubbles": false,
-        "containsImageBubbles": false
-      },
       "imageLinks": {
         "smallThumbnail": "http://books.google.com/books/content?id=e8b-CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=e8b-CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
@@ -591,9 +585,7 @@
   },
 
   {
-    "kind": "books#volume",
     "id": "6sFqDwAAQBAJ",
-    "etag": "q7jTZ2hixE8",
     "selfLink": "https://www.googleapis.com/books/v1/volumes/6sFqDwAAQBAJ",
     "volumeInfo": {
       "title": "The World's First Love",
@@ -621,8 +613,12 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 50,
+        "currencyCode": "USD"
+      }
     },
     "accessInfo": {
       "country": "KE",
@@ -646,9 +642,7 @@
     }
   },
   {
-    "kind": "books#volume",
     "id": "o1cFAAAAQAAJ",
-    "etag": "1mBRm4F24yY",
     "selfLink": "https://www.googleapis.com/books/v1/volumes/o1cFAAAAQAAJ",
     "volumeInfo": {
       "title": "The glories of Mary, mother of God",
@@ -693,9 +687,7 @@
     }
   },
   {
-    "kind": "books#volume",
     "id": "zdZuBAAAQBAJ",
-    "etag": "IjJSU7+TwKI",
     "selfLink": "https://www.googleapis.com/books/v1/volumes/zdZuBAAAQBAJ",
     "volumeInfo": {
       "title": "The Glories of Mary",
@@ -723,8 +715,12 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD"
+      }
     },
     "accessInfo": {
       "country": "KE",
@@ -747,9 +743,7 @@
     }
   },
   {
-    "kind": "books#volume",
     "id": "SGmeCAAAQBAJ",
-    "etag": "R+YtRmBEKmE",
     "selfLink": "https://www.googleapis.com/books/v1/volumes/SGmeCAAAQBAJ",
     "volumeInfo": {
       "title": "Mariology: A Dogmatic Treatise on the Blessed Virgin Mary, Mother of God",
@@ -781,8 +775,12 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 17,
+        "currencyCode": "USD"
+      }
     },
     "accessInfo": {
       "country": "KE",
@@ -805,9 +803,7 @@
     }
   },
   {
-    "kind": "books#volume",
     "id": "05UUAgAAQBAJ",
-    "etag": "ASejuSnVRO4",
     "selfLink": "https://www.googleapis.com/books/v1/volumes/05UUAgAAQBAJ",
     "volumeInfo": {
       "title": "Introduction to Mary",
@@ -836,8 +832,12 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE",
-      "isEbook": false
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      }
     },
     "accessInfo": {
       "country": "KE",
@@ -886,6 +886,10 @@
     },
     "saleInfo": {
       "country": "KE",
+      "specifiedPrice": {
+        "amount": 39,
+        "currencyCode": "USD"
+      },
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=Q2RCAAAAYAAJ&rdid=book-Q2RCAAAAYAAJ&rdot=1&source=gbs_api"
@@ -935,7 +939,12 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE"
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 20,
+        "currencyCode": "USD"
+      }
     },
     "accessInfo": {
       "country": "KE",
@@ -982,7 +991,12 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE"
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD"
+      }
     },
     "accessInfo": {
       "country": "KE",
@@ -1033,8 +1047,13 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 39,
+        "currencyCode": "USD"
+    }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "PARTIAL",
@@ -1085,8 +1104,13 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "NOT_FOR_SALE"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 81,
+        "currencyCode": "USD"
+    }
+  },
     "accessInfo": {
       "country": "KE",
       "textToSpeechPermission": "ALLOWED",
@@ -1127,6 +1151,10 @@
     },
     "saleInfo": {
       "country": "KE",
+      "specifiedPrice": {
+        "amount": 32,
+        "currencyCode": "USD"
+      },
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api"
@@ -1174,6 +1202,10 @@
     },
     "saleInfo": {
       "country": "KE",
+      "specifiedPrice": {
+        "amount": 59,
+        "currencyCode": "USD"
+      },
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ&rdid=book-MD8QAAAAIAAJ&rdot=1&source=gbs_api"
@@ -1224,6 +1256,10 @@
     },
     "saleInfo": {
       "country": "KE",
+      "specifiedPrice": {
+        "amount": 40,
+        "currencyCode": "USD"
+      },
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ&rdid=book-bwg9AAAAIAAJ&rdot=1&source=gbs_api"
@@ -1271,6 +1307,10 @@
     },
     "saleInfo": {
       "country": "KE",
+      "specifiedPrice": {
+        "amount": 11,
+        "currencyCode": "USD"
+      },
       "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ&rdid=book-r5o6AAAAMAAJ&rdot=1&source=gbs_api"
@@ -1321,7 +1361,11 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "FREE",
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD"
+      },
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ&rdid=book-Mr9JAQAAIAAJ&rdot=1&source=gbs_api"
     },
@@ -1367,8 +1411,12 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ"
     },
     "saleInfo": {
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 21,
+        "currencyCode": "USD"
+      },
       "country": "KE",
-      "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ&rdid=book-UKJVAAAAcAAJ&rdot=1&source=gbs_api"
     },
@@ -1413,7 +1461,11 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "FREE",
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api"
     },
@@ -1457,14 +1509,18 @@
       "language": "syr",
       "previewLink": "http://books.google.com/books?id=lw1KAAAAMAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=8&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ&source=gbs_api",
-      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ"
-    },
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ",
     "saleInfo": {
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 39,
+        "currencyCode": "USD"
+      },
       "country": "KE",
-      "saleability": "FREE",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ&rdid=book-lw1KAAAAMAAJ&rdot=1&source=gbs_api"
-    },
+    }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1510,10 +1566,14 @@
     },
     "saleInfo": {
       "country": "KE",
-      "saleability": "FREE",
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD",
       "isEbook": true,
       "buyLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ&rdid=book-L0UYAAAAYAAJ&rdot=1&source=gbs_api"
-    },
+    }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1559,11 +1619,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 90,
+        "currencyCode": "USD",
       "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api"
-    },
+    }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1604,11 +1666,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 9,
+        "currencyCode": "USD"
+      }
+  },     
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1650,11 +1714,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ&rdid=book-MD8QAAAAIAAJ&rdot=1&source=gbs_api"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 60,
+        "currencyCode": "USD"
+      }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1699,11 +1765,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ&rdid=book-bwg9AAAAIAAJ&rdot=1&source=gbs_api"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 40,
+        "currencyCode": "USD"
+      }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1745,11 +1813,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ&rdid=book-r5o6AAAAMAAJ&rdot=1&source=gbs_api"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 15,
+        "currencyCode": "USD"
+      }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1794,11 +1864,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ&rdid=book-Mr9JAQAAIAAJ&rdot=1&source=gbs_api"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 20,
+        "currencyCode": "USD"
+      }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1841,11 +1913,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ&rdid=book-L0UYAAAAYAAJ&rdot=1&source=gbs_api"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 60,
+        "currencyCode": "USD"
+      }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1890,11 +1964,13 @@
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ"
     },
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ&rdid=book-UKJVAAAAcAAJ&rdot=1&source=gbs_api"
-    },
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 37,
+        "currencyCode": "USD"
+      }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1923,7 +1999,7 @@
         "Francis Hermans"
       ],
       "publishedDate": "1885",
-
+      "description": "Mary Foreshadowed; or, Considerations on the Types and Figures of Our Blessed Lady in the Old Testament by Rev. F. Thaddeus sounds like a theological work that explores the parallels between figures and events in the Old Testament and the life of Mary, the mother of Jesus, in Christian tradition. The title suggests that the author examines how Mary's life, attributes, and role in salvation history were prefigured or symbolized by various characters, symbols, and events in the Hebrew Scriptures.",
       "pageCount": 302,
       "printType": "BOOK",
 
@@ -1936,12 +2012,15 @@
       "infoLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ"
     },
-    "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api"
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 13,
+          "currencyCode": "USD"
+        }
     },
+  
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -1970,27 +2049,30 @@
         "Sir Ernest Alfred Wallis Budge"
       ],
       "publishedDate": "1899",
-
+      "description": "The History of the Likeness of Christ which the Jews of Tiberias Made to Mock at are Syriac texts that provide insights into early Christian perspectives and traditions surrounding Mary and Jesus.",
       "printType": "BOOK",
       "categories": [
         "Apocryphal books (New Testament)"
       ],
-
       "imageLinks": {
         "smallThumbnail": "http://books.google.com/books/content?id=lw1KAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
         "thumbnail": "http://books.google.com/books/content?id=lw1KAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-      },
+      }
+    },
       "language": "syr",
       "previewLink": "http://books.google.com/books?id=lw1KAAAAMAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=9&source=gbs_api",
       "infoLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ&source=gbs_api",
-      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ"
-    },
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ",
     "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ&rdid=book-lw1KAAAAMAAJ&rdot=1&source=gbs_api"
-    },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 41,
+          "currencyCode": "USD"
+        }
+    }
+  },
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
@@ -2020,7 +2102,7 @@
         "L. Lanzoni"
       ],
       "publishedDate": "1903",
-
+      "description": " The virtues attributed to Mary, the mother of Jesus, are revered in various Christian traditions and hold significant spiritual and theological importance. While different branches of Christianity may emphasize different aspects, some commonly recognized virtues of Mary",
       "pageCount": 162,
       "printType": "BOOK",
       "categories": [
@@ -2036,12 +2118,15 @@
       "infoLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&source=gbs_api",
       "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC"
     },
-    "saleInfo": {
-      "country": "KE",
-      "saleability": "FREE",
-      "isEbook": true,
-      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api"
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 30,
+          "currencyCode": "USD"
+        }
     },
+
     "accessInfo": {
       "country": "KE",
       "viewability": "ALL_PAGES",
