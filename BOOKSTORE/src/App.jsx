@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [books, setBooks] = useState([]);
   const [filteredBooks, setFilteredBooks] = useState([]);
-  const [pageTitle] = useState("Book App");
+  const [pageTitle] = useState("Book-Store");
   const [currentCategory, setCurrentCategory] = useState(null);
 
   useEffect(() => {
