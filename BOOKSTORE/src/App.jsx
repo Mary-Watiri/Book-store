@@ -1,10 +1,8 @@
-
 import React, { useState, useEffect } from 'react';
 import NavBar from './NavBar.jsx';
 import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0);
   const [books, setBooks] = useState([]);
   const [filteredBooks, setFilteredBooks] = useState([]);
   const [pageTitle] = useState("Book-Store");
@@ -17,6 +15,9 @@ function App() {
   const fetchBooks = async () => {
     try {
       const response = await fetch('http://localhost:3000/items');
+      if (!response.ok) {
+        throw new Error('Failed to fetch books');
+      }
       const data = await response.json();
       setBooks(data);
       setFilteredBooks(data);
@@ -28,6 +29,9 @@ function App() {
   const handleSearch = async (searchTerm) => {
     try {
       const response = await fetch(`http://localhost:3000/items?name=${searchTerm}`);
+      if (!response.ok) {
+        throw new Error('Failed to search books');
+      }
       const data = await response.json();
       setFilteredBooks(data);
     } catch (error) {
@@ -38,6 +42,9 @@ function App() {
   const handleCategory = async (category) => {
     try {
       const response = await fetch(`http://localhost:3000/items?category=${category}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch books by category');
+      }
       const data = await response.json();
       setFilteredBooks(data);
       setCurrentCategory(category);
@@ -53,13 +60,18 @@ function App() {
       </header>
       <NavBar handleSearch={handleSearch} handleCategory={handleCategory} />
 
-      <div>
+      <div className="book-cards">
         {currentCategory && <h2>{currentCategory} Books</h2>}
-        <ol>
+        <div className="card-container">
           {filteredBooks.map((book) => (
-            <li key={book.id}>{book.name}</li>
+            <div key={book.id} className="card">
+              <h3>{book.name}</h3>
+              <p>{book.author}</p>
+              <p>{book.genre}</p>
+              {/* Add more book details as needed */}
+            </div>
           ))}
-        </ol>
+        </div>
       </div>
     </>
   );
