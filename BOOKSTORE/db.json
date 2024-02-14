@@ -1,0 +1,414 @@
+{
+  "items": [
+    {
+      "id": "R9zPRFeo8ZMC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/R9zPRFeo8ZMC",
+      "volumeInfo": {
+        "title": "Lippincott's Gazetteer of the World",
+        "authors": [
+          "Jérôme Euzenat",
+          "Pavel Shvaiko"
+        ],
+        "description": "This is another sample book description.",
+        "publishedDate": "1880",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "categories": [
+          "Gazetteers"
+        ],
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=R9zPRFeo8ZMC&pg=PA1193&dq=lang%3Den&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 15,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        }
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Lippincott_s_Gazetteer_of_the_World.epub?id=R9zPRFeo8ZMC&hl=&output=epub&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=R9zPRFeo8ZMC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>Lang</b>&#39;ell&#39;s Valley , a post - office of Lake co . , Oregon . Langelsheim , <b>lång</b>&#39;els - hime &#39; , a town of Germany ... <b>en</b> - öls &#39; , two contiguous villages of Prussian Silesia , government of Liegnitz . Pop . 2644 . Langensalza , <b>lang</b>&nbsp;..."
+      }
+    },
+    {
+      "id": "nzLABAAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nzLABAAAQBAJ",
+      "volumeInfo": {
+        "title": "Ontology Matching",
+        "authors": [
+          "Jérôme Euzenat",
+          "Pavel Shvaiko"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2013-11-08",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nzLABAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nzLABAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "description": "Ontologies tend to be found everywhere. They are viewed as the silver bullet for many applications, such as database integration, peer-to-peer systems, e-commerce, semantic web services, or social networks. However, in open or evolving systems, such as the semantic web, different parties would, in general, adopt different ontologies. Thus, merely using ontologies, like using XML, does not reduce heterogeneity: it just raises heterogeneity problems to a higher level. Euzenat and Shvaiko’s book is devoted to ontology matching as a solution to the semantic heterogeneity problem faced by computer systems. Ontology matching aims at finding correspondences between semantically related entities of different ontologies. These correspondences may stand for equivalence as well as other relations, such as consequence, subsumption, or disjointness, between ontology entities. Many different matching solutions have been proposed so far from various viewpoints, e.g., databases, information systems, and artificial intelligence. The second edition of Ontology Matching has been thoroughly revised and updated to reflect the most recent advances in this quickly developing area, which resulted in more than 150 pages of new content. In particular, the book includes a new chapter dedicated to the methodology for performing ontology matching. It also covers emerging topics, such as data interlinking, ontology partitioning and pruning, context-based matching, matcher tuning, alignment debugging, and user involvement in matching, to mention a few. More than 100 state-of-the-art matching systems and frameworks were reviewed. With Ontology Matching, researchers and practitioners will find a reference book that presents currently available work in a uniform framework. In particular, the work and the techniques presented in this book can be equally applied to database schema matching, catalog integration, XML schema matching and other related problems. The objectives of the book include presenting (i) the state of the art and (ii) the latest research results in ontology matching by providing a systematic and detailed account of matching techniques and matching systems from theoretical, practical and application perspectives.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783642387210"
+          }
+        ],
+        "pageCount": 511,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=nzLABAAAQBAJ&pg=PA415&dq=lang%3Den&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=nzLABAAAQBAJ&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ontology_Matching.html?hl=&id=nzLABAAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 30,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Ontology_Matching-sample-epub.acsm?id=nzLABAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Ontology_Matching-sample-pdf.acsm?id=nzLABAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=nzLABAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... <b>lang</b>=&quot;<b>en</b>&quot; &gt;A volume whose main interest reside in the threatment of the topic. &lt;/rdfs: comment&gt; &lt;/owl: Class &gt; &lt;owl: Class rdf:ID=&quot;Novel&quot;&gt; &lt;rdfs: subClass Of raf : resource=&quot;#Literature&quot; /&gt; &lt;rdfs: label xml : <b>lang</b>=&quot;<b>en</b>&quot; &gt; novel.&lt;/rdfs&nbsp;..."
+        }
+      }
+    },
+    {
+      "id": "YvqNeQTLj5oC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YvqNeQTLj5oC",
+      "volumeInfo": {
+        "title": "The Impact of Devolution on Social Policy",
+        "authors": [
+          "Derek Birrell"
+        ],
+        "publisher": "Policy Press",
+        "publishedDate": "2009-09-09",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=YvqNeQTLj5oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=YvqNeQTLj5oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "description": "With new devolved administrations in Scotland, Wales and Northern Ireland, this book makes a comprehensive assessment of the impact of devolution on social policy. It provides a study of developments in the major areas of social policy and a full comparison between Scotland, Wales and Northern Ireland. To what extent is it valid to speak of agendas for government driven by social policy? With new governments in each country, has a fresh dynamic been given to the emergence of distinct social policies? The impact of devolution on social policy uses a framework of analysis based on the nature and scope of social policies, ranging from major innovations and policy distinctiveness, to differences in implementation, policy convergence and areas of overlap with UK policies. This framework facilitates an integrated analysis and comparison of social policy developments and outcomes between the four UK nations. An assessment is also made of the ideas and values which have driven the direction of social policy under devolution. With devolution becoming increasingly important in the study of social policy, the book will be of key interest to academics and students in social policy, public policy and politics, and will also be a valuable resource for practitioners involved in policy making.",
+        "pageCount": 252,
+        "printType": "BOOK",
+        "categories": [
+          "Political Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.4.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=YvqNeQTLj5oC&pg=PA220&dq=lang%3Den&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=YvqNeQTLj5oC&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Impact_of_Devolution_on_Social_Polic.html?hl=&id=YvqNeQTLj5oC"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 70,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/The_Impact_of_Devolution_on_Social_Polic-sample-pdf.acsm?id=YvqNeQTLj5oC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=YvqNeQTLj5oC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... <b>lang</b> = <b>en</b> ) . WAG ( 2006b ) Child poverty implementation plan ( www.new.wales . gov.uk/dsjlg/publications/childrenyoung/implementplanphase1/ report ? <b>lang</b> = <b>en</b> ) . WAG ( 2006c ) National homelessness strategy for Wales 2006-2008 ( www&nbsp;..."
+        }
+      }
+    },
+    {
+      "id": "NTDHtWHX9woC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NTDHtWHX9woC",
+      "volumeInfo": {
+        "title": "An American Dictionary of the English Language",
+        "subtitle": "Containing the Whole Vocabulary of the First Edition in ... Quarto; the Entire Corrections and Improvements of the Second Edition in ... Octavo: to which is Prefixed an Introductory Dissertation on the Origin, History, and Connection, of the Languages of Western Asia and Europe, with an Explanation of the Principles on which Languages are Formed",
+        "authors": [
+          "Noah Webster"
+        ],
+        "publishedDate": "1849",
+        "description": "With new devolved administrations in Scotland, Wales and Northern Ireland, this book makes a comprehensive assessment of the impact of devolution on social policy. It provides a study of developments in the major areas of social policy and a full comparison between Scotland, Wales and Northern Ireland. To what extent is it valid to speak of agendas for government driven by social policy? With new governments in each country, has a fresh dynamic been given to the emergence of distinct social policies? The impact of devolution on social policy uses a framework of analysis based on the nature and scope of social policies, ranging from major innovations and policy distinctiveness, to differences in implementation, policy convergence and areas of overlap with UK policies. This framework facilitates an integrated analysis and comparison of social policy developments and outcomes between the four UK nations. An assessment is also made of the ideas and values which have driven the direction of social policy under devolution. With devolution becoming increasingly important in the study of social policy, the book will be of key interest to academics and students in social policy, public policy and politics, and will also be a valuable resource for practitioners involved in policy making.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=NTDHtWHX9woC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NTDHtWHX9woC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 1464,
+        "printType": "BOOK",
+        "categories": [
+          "English language"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.4.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=NTDHtWHX9woC&pg=PA1345&dq=lang%3Den&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=NTDHtWHX9woC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NTDHtWHX9woC"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 10,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=NTDHtWHX9woC&rdid=book-NTDHtWHX9woC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/An_American_Dictionary_of_the_English_La.epub?id=NTDHtWHX9woC&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=NTDHtWHX9woC&hl=&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... <b>lang</b> - <b>en</b> - tale &#39; lang - e - ma&#39;rèch lang &#39; holt läng / nou lang&#39;an lang - gōny ! län &quot; gōng längr läng - dōk &#39; lan - cha&#39;ron län ldn - ni - li &#39; Lectoure , ( Fr. ) Ledana , ( Pen . ) Ledesma , ( Pen . ) Leeds , ( Eng . ) Leende&nbsp;..."
+        }
+      }
+    },
+    {
+      "id": "TFNsCQAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TFNsCQAAQBAJ",
+      "volumeInfo": {
+        "title": "Pedagogically Founded Courseware Generation for Web-Based Learning",
+        "subtitle": "An HTN-Planning-Based Approach Implemented in Paigos",
+        "authors": [
+          "Carsten Ullrich"
+        ],
+        "publisher": "Springer",
+        "publishedDate": "2008-09-26",
+        "description": "Automatic course generation is a very important area of research with numerous practical applications in e-learning. It has been studied since the 1980s within the fields of intelligent tutoring, AI and education, adaptive hypermedia and web-based educational systems. Many approaches have been proposed, but hardly any have resulted in generic and practically applied systems. A number of problems have remained unresolved. These problems are addressed by this work. This book focuses on course generation based on Hierarchical Task Network planning (HTN planning). This course generation framework enables the formalization and application of complex and realistic pedagogical knowledge. The volume describes basic techniques for course generation, which are used to formalize seven different types of courses (for instance, introducing the learner to previously unknown concepts and supporting the learner during rehearsal) and several elementary learning goals (e.g., selecting an appropriate example or exercise). This framework has been implemented and evaluated with good results in several domains, with users from different countries and universities, in the context of an EU project. Course generation based on HTN planning is implemented in PAIGOS and has been evaluated by technical, formative and summative evaluations.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TFNsCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TFNsCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 257,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=TFNsCQAAQBAJ&pg=PA96&dq=lang%3Den&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=TFNsCQAAQBAJ&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Pedagogically_Founded_Courseware_Generat.html?hl=&id=TFNsCQAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 19,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/Pedagogically_Founded_Courseware_Generat-sample-pdf.acsm?id=TFNsCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=TFNsCQAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... <b>lang</b>=&quot;<b>en</b>&quot; role=&quot;edt&quot;&gt;Activemath.&lt;/Creator» &lt;Creator xml: <b>lang</b>=&quot;<b>en</b>&quot; role=&quot;aut&quot;&gt;N/A4/Creator» &lt;Contributor xml: <b>lang</b>=&quot;<b>en</b>&quot; role=&quot;trl&quot;&gt;N/A4/Contributor» &lt;Date xml: action=&quot;updated&quot; xml:who=&quot;Activemath&quot;&gt;2007-03-09T17:19:48&lt;/Datex &lt;/metadata&gt;&nbsp;..."
+        }
+      }
+    },
+    {
+      "id": "4Ts97uMv138C",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4Ts97uMv138C",
+      "volumeInfo": {
+        "title": "The Language of the Heart",
+        "subtitle": "A Cultural History of the Recovery Movement from Alcoholics Anonymous to Oprah Winfrey",
+        "authors": [
+          "Trysh Travis"
+        ],
+        "publisher": "Univ of North Carolina Press",
+        "publishedDate": "2010-01-01",
+        "description": "In The Language of the Heart, Trysh Travis explores the rich cultural history of Alcoholics Anonymous (AA) and its offshoots and the larger \"recovery movement\" that has grown out of them. Moving from AA's beginnings in the mid-1930s as a men's fellowship that met in church basements to the thoroughly commercialized addiction treatment centers of today, Travis chronicles the development of recovery and examines its relationship to the broad American tradition of self-help, highlighting the roles that gender, mysticism, and bibliotherapy have played in that development.",
+        "pageCount": 376,
+        "printType": "BOOK",
+        "categories": [
+          "Social Science"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.67.64.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4Ts97uMv138C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4Ts97uMv138C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=4Ts97uMv138C&pg=PA319&dq=lang%3Den&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=4Ts97uMv138C&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Language_of_the_Heart.html?hl=&id=4Ts97uMv138C"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 20,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.com/books/download/The_Language_of_the_Heart-sample-epub.acsm?id=4Ts97uMv138C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=4Ts97uMv138C&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... <b>lang</b>/<b>en</b>/en — pdfs/f-47 — theaaarchives.pdf]. 20 March 2009. ———. &#39;&#39;AA Preamble.&#39;&#39; [http://www.aa.org/<b>lang</b>/<b>en</b>/en — pdfs/smf-92—en.pdf]. 20 March 2009. ———. The AA Service Manual Combined with Twelve Concepts for World Service by Bill W&nbsp;..."
+        }
+      }
+    },
+    {
+      "id": "485dwwHToA8C",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/485dwwHToA8C",
+      "volumeInfo": {
+        "title": "Hedendaagsche Vaderlandsche Letter-oefeningen, Waar in de Boeken en Schriften, Die Dagelyks in Ons Vaderland en Elders Uitkomen, Oordeelkundig Tevens en Vrymoedig Verhandeld Worden. Benevens Mengelwerk, Tot Fraaije Letteren, Konsten en Weetenschappen Betrekkelyk",
+        "publishedDate": "1775",
+        "pageCount": 614,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.1.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=485dwwHToA8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=485dwwHToA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=485dwwHToA8C&pg=PA535&dq=lang%3Den&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=485dwwHToA8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=485dwwHToA8C"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 22,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "ALL_PAGES",
+          "embeddable": true,
+          "publicDomain": true,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false,
+            "downloadLink": "http://books.google.com/books/download/Hedendaagsche_Vaderlandsche_Letter_oefen.epub?id=485dwwHToA8C&hl=&output=epub&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=485dwwHToA8C&hl=&source=gbs_api",
+          "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "... <b>lang en</b> uyt hunne kasfen gefchooten , vertoonen ; en wanneer ze vyftien Jaeren oud geworden zyn , of zelfs dikwils eerder , zyn deeze arme Dieren buyten ftaet om dienst te kunnen doen : daar dezelven integendeel , met een beter voedzel&nbsp;..."
+        }
+      }
+    }
+  ]
+}
