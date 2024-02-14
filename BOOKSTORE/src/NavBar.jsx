@@ -63,7 +63,8 @@ const NavBar = ({ handleSearch, handleCategory }) => {
 
   return (
     <header className="navbar"> {/* Added wrapping header with 'navbar' class */}
-      <form onSubmit={handleSubmit}>
+    <div className="search">
+    <form onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Search books by name"
@@ -72,6 +73,8 @@ const NavBar = ({ handleSearch, handleCategory }) => {
         />
         <button type="submit">Search</button>
       </form>
+    </div>
+      
       <div className="categories">
         {categories.map((category, index) => (
           <button key={index} onClick={() => handleCategoryClick(category)}>{category}</button>

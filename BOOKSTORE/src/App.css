@@ -56,6 +56,11 @@ header {
   align-items: center;
 }
 
+.navbar .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navbar .categories button {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
