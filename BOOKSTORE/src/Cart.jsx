@@ -4,6 +4,7 @@ import Checkout from "./Checkout";
 function Cart({ cartItems }) {
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const [cart, setCart] = useState(cartItems);
 
   const toggleCart = (event) => {
     event.preventDefault();
@@ -14,7 +15,13 @@ function Cart({ cartItems }) {
     setIsCheckoutOpen(!isCheckoutOpen);
   };
 
-  const cartItemCount = cartItems.length;
+  const removeFromCart = (index) => {
+    const updatedCart = [...cart];
+    updatedCart.splice(index, 1);
+    setCart(updatedCart);
+  };
+
+  const cartItemCount = cart.length;
 
   return (
     <div>
@@ -22,7 +29,7 @@ function Cart({ cartItems }) {
       {isCartOpen && (
         <div>
           <ul>
-            {cartItems.map((item, index) => (
+            {cart.map((item, index) => (
               <li key={index}>
                 <img
                   src={item.image}
@@ -34,6 +41,7 @@ function Cart({ cartItems }) {
                   }}
                 />
                 <strong>{item.title}</strong> - {item.price}
+                <button onClick={() => removeFromCart(index)}>Remove</button>
               </li>
             ))}
           </ul>
