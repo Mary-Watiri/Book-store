@@ -1,13 +1,17 @@
-
-
 import React, { useState } from "react";
-
+import Checkout from "./Checkout";
 
 function Cart({ cartItems }) {
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
 
-  const toggleCart = () => {
+  const toggleCart = (event) => {
+    event.preventDefault();
     setIsCartOpen(!isCartOpen);
+  };
+
+  const toggleCheckout = () => {
+    setIsCheckoutOpen(!isCheckoutOpen);
   };
 
   const cartItemCount = cartItems.length;
@@ -33,11 +37,10 @@ function Cart({ cartItems }) {
               </li>
             ))}
           </ul>
-          
-            <button>Checkout</button>
-          
+          <button onClick={toggleCheckout}>Checkout</button>
         </div>
       )}
+      {isCheckoutOpen && <Checkout />}
     </div>
   );
 }
