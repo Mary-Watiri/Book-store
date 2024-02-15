@@ -6,6 +6,7 @@ import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import './App.css';
 import BookList from './BookList';
 import Cart from './Cart';
+import Dashboard from './assets/Dashboard';
 
 const initialOptions = {
   "client-id": "AW8X5in4VKnvycnAwZHX4n8n1HS4v2pV3LivXjJiHJp4t0yND9yUZAdcxJutwpBj2o4nIfi9a_eO0YKz",

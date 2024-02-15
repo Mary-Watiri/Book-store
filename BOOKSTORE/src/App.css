@@ -1,3 +1,9 @@
+* {
+  background-color: black;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Smooch Sans", sans-serif;
+}
 
 /* Styling for the header and navbar */
 header {
@@ -64,6 +70,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .navbar .categories button {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
@@ -75,6 +82,7 @@ header {
 
 .navbar .categories button:hover {
   background-color: rgba(128, 128, 128, 0.8);
+}
 
 .footer {
   position: fixed;
@@ -87,10 +95,60 @@ header {
   padding: 20px 0;
 }
 
+.dashboard {
+  margin-bottom: 50px;
+  margin-top: 18rem;
+}
+
+.dashboard input {
+  left: 33%;
+  position: absolute;
+  top: 5%;
+  width: 300px;
+  font-size: 27px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Barriecito", system-ui;
+  background-color: #fff;
+  height: 50px;
+  margin-top: 17rem;
+}
+
+.add {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 50px;
+  font-family: "Honk", system-ui;
+}
+
 .contact-info {
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+.dashboardContainer {
+  display: inline-block;
+  gap: 9em;
+  left: 3%;
+  margin-top: 75px;
+}
+
+.dashboardContainer button {
+  border: none;
+  width: 130px;
+  height: 60px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: "Abril Fatface", serif;
+}
+
+.form1 {
+  background-color: red;
+  position: absolute;
 }
 
 .contact-info > div {
@@ -108,6 +166,7 @@ header {
 .leave-message form textarea {
   margin-right: 10px;
 }
+
 .leave-message form label:last-child,
 .leave-message form input:last-child,
 .leave-message form textarea:last-child {
@@ -116,4 +175,11 @@ header {
 
 .leave-message form textarea {
   margin-top: 5px;
+}
+
+.firser h2 {
+  color: red;
+  position: absolute;
+  top: 45%;
+  left: 38%;
 }
