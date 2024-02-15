@@ -18,14 +18,15 @@ function BookList({ addToCart }) {
 
   return (
     <div>
-      <h2 style={{ color: 'white', fontSize: '40px', marginBottom: '10px' }}>BOOK LIST</h2>
+      <h2 style={{ color: 'black', fontSize: '40px', marginBottom: '10px' }}>BOOK LIST</h2>
       {books.length > 0 ? (
         <div
           style={{
-            border: '2px solid blue',
+            border: '5px solid white',
             padding: '10px',
-            borderRadius: '15px',
             marginBottom: '20px',
+            borderRadius: '9px',
+            color: 'white',
             backgroundColor: 'black',
             display: 'grid',
             gridTemplateColumns: '1fr 1fr 1fr',
@@ -36,7 +37,6 @@ function BookList({ addToCart }) {
             paddingLeft: '4px',
             paddingTop: '24px',
             paddingInlineStart: '20px',
-            
           }}
         >
           {books.map((book, index) => (
@@ -49,20 +49,18 @@ function BookList({ addToCart }) {
                 borderRadius: '5px',
               }}
             >
-              <h3>{book.volumeInfo?.title || 'Unknown Title'}</h3>
+              <h3>{book.volumeInfo.title || 'Unknown Title'}</h3>
               <h4>{book.volumeInfo?.authors ? book.volumeInfo.authors.join(', ') : 'Unknown Author'}</h4>
               <p>{book.volumeInfo?.description ? book.volumeInfo.description : 'No description available'}</p>
-              {book.saleInfo && book.saleInfo.listPrice && book.saleInfo.listPrice.amount ? (
-                <p>
-                  Price: {book.saleInfo.listPrice.amount} {book.saleInfo.listPrice.currencyCode}
-                </p>
-              ) : book.saleInfo && book.saleInfo.specifiedPrice && book.saleInfo.specifiedPrice.amount ? (
-                <p>
-                  Price: {book.saleInfo.specifiedPrice.amount} {book.saleInfo.specifiedPrice.currencyCode}
-                </p>
+              {book.volumeInfo && book.volumeInfo.categories ? (
+                <p>Category: {book.volumeInfo.categories.join(', ')}</p>
               ) : (
-                <p>Price: Unknown</p>
+                <p>Category: Unknown</p>
               )}
+              <p>
+                Price: {book.saleInfo?.listPrice?.amount ?? book.saleInfo?.specifiedPrice?.amount ?? "Not for Sale"}{" "}
+                {book.saleInfo?.listPrice?.currencyCode ?? book.saleInfo?.specifiedPrice?.currencyCode}
+              </p>
               <img
                 src={book.volumeInfo?.imageLinks?.thumbnail || ''}
                 alt={book.volumeInfo?.title || 'No Title'}
@@ -79,4 +77,4 @@ function BookList({ addToCart }) {
   );
 }
 
-export default BookList; 
+export default BookList;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
 
 const Checkout = () => {
@@ -36,17 +36,21 @@ const Checkout = () => {
   };
 
   return (
-    <div className="checkout">
+    <div className="checkout" style={{ textAlign: 'center', marginTop: '20px' }}>
       {isPending ? (
-        <p>LOADING...</p>
+        <p style={{ fontSize: '18px', color: 'blue' }}>LOADING...</p>
       ) : (
         <>
-          <select value={currency} onChange={onCurrencyChange}>
+          <select
+            value={currency}
+            onChange={onCurrencyChange}
+            style={{ backgroundColor: 'black', color: 'white', marginTop: '10px', padding: '8px', fontSize: '16px', borderRadius: '5px', border: '1px solid #ccc' }}
+          >
             <option value="USD">💵 USD</option>
             <option value="EUR">💶 Euro</option>
           </select>
           <PayPalButtons
-            style={{ layout: "vertical" }}
+            style={{ marginTop: '20px' }}
             createOrder={(data, actions) => onCreateOrder(data, actions)}
             onApprove={(data, actions) => onApproveOrder(data, actions)}
           />
