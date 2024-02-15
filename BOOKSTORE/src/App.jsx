@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import React, { useState } from 'react';
+import BookList from './BookList';
+import Cart from './Cart';
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
+const initialOptions = {
+  "client-id":
+    "AW8X5in4VKnvycnAwZHX4n8n1HS4v2pV3LivXjJiHJp4t0yND9yUZAdcxJutwpBj2o4nIfi9a_eO0YKz",
+  currency: "USD",
+  intent: "capture",
+};
 function App() {
-  const [count, setCount] = useState(0)
+  const [cartItems, setCartItems] = useState([]);
+
+  const addToCart = (book) => {
+    setCartItems((prevItems) => [...prevItems, book]);
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <PayPalScriptProvider options={initialOptions}>
+       <Cart cartItems={cartItems} />
+      </PayPalScriptProvider>  
+      <BookList addToCart={addToCart} />      
+
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,2723 @@
+{
+  "items": [
+    {
+      "id": "R9zPRFeo8ZMC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/R9zPRFeo8ZMC",
+      "volumeInfo": {
+        "title": "Lippincott's Gazetteer of the World",
+        "authors": [
+          "Jérôme Euzenat",
+          "Pavel Shvaiko"
+        ],
+        "description": "This is another sample book description.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "categories": ["Gazetteers"],
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=R9zPRFeo8ZMC&pg=PA1193&dq=lang%3Den&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 15,
+          "currencyCode": "USD"
+        }
+      },
+      "accessInfo": {
+        "country": "KE",
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Lippincott_s_Gazetteer_of_the_World.epub?id=R9zPRFeo8ZMC&hl=&output=epub&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=R9zPRFeo8ZMC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>Lang</b>&#39;s Valley , a post - office of Lake co . , Oregon . Langelsheim , <b>lång</b>&#39;els - hime &#39; , a town of Germany ... <b>en</b> - öls &#39; , two contiguous villages of Prussian Silesia , government of Liegnitz . Pop . 2644 . Langensalza , <b>lang</b>&nbsp;..."
+      }
+  },
+    {
+      "id": "nzLABAAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nzLABAAAQBAJ",
+      "volumeInfo": {
+        "title": "Ontology Matching",
+        "authors": [
+          "Jérôme Euzenat",
+          "Pavel Shvaiko"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "description": "Ontologies tend to be found everywhere. They are viewed as the silver bullet for many applications, such as database integration, peer-to-peer systems, e-commerce, semantic web services, or social networks. However, in open or evolving systems, such as the semantic web, different parties would, in general, adopt different ontologies. Thus, merely using ontologies, like using XML, does not reduce heterogeneity: it just raises heterogeneity problems to a higher level. Euzenat and Shvaiko’s book is devoted to ontology matching as a solution to the semantic heterogeneity problem faced by computer systems. Ontology matching aims at finding correspondences between semantically related entities of different ontologies. These correspondences may stand for equivalence as well as other relations, such as consequence, subsumption, or disjointness, between ontology entities. Many different matching solutions have been proposed so far from various viewpoints, e.g., databases, information systems, and artificial intelligence. The second edition of Ontology Matching has been thoroughly revised and updated to reflect the most recent advances in this quickly developing area, which resulted in more than 150 pages of new content. In particular, the book includes a new chapter dedicated to the methodology for performing ontology matching. It also covers emerging topics, such as data interlinking, ontology partitioning and pruning, context-based matching, matcher tuning, alignment debugging, and user involvement in matching, to mention a few. More than 100 state-of-the-art matching systems and frameworks were reviewed. With Ontology Matching, researchers and practitioners will find a reference book that presents currently available work in a uniform framework. In particular, the work and the techniques presented in this book can be equally applied to database schema matching, catalog integration, XML schema matching and other related problems. The objectives of the book include presenting (i) the state of the art and (ii) the latest research results in ontology matching by providing a systematic and detailed account of matching techniques and matching systems from theoretical, practical and application perspectives.",
+        "publishedDate": "2013-11-08",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nzLABAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nzLABAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 511,
+        "printType": "BOOK",
+        "categories": [ "Computers" ],
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=nzLABAAAQBAJ&pg=PA415&dq=lang%3Den&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=nzLABAAAQBAJ&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ontology_Matching.html?hl=&id=nzLABAAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 30,
+          "currencyCode": "USD"
+        }
+      },
+      "accessInfo": {
+        "country": "KE",
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        }
+      }
+    },
+    {
+      "id": "VfcX9wJEH3YC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VfcX9wJEH3YC",
+      "volumeInfo": {
+        "title": "Practical RDF",
+        "subtitle": "Solving Problems with the Resource Description Framework",
+        "authors": [
+          "Shelley Powers"
+        ],
+        "description": "The Resource Description Framework (RDF) is a structure for describing and interchanging metadata on the Web--anything from library catalogs and worldwide directories to bioinformatics, Mozilla internal data structures, and knowledge bases for artificial intelligence projects. RDF provides a consistent framework and syntax for describing and querying data, making it possible to share website descriptions more easily. RDF's capabilities, however, have long been shrouded by its reputation for complexity and a difficult family of specifications. Practical RDF breaks through this reputation with immediate and solvable problems to help you understand, master, and implement RDF solutions.Practical RDF explains RDF from the ground up, providing real-world examples and descriptions of how the technology is being used in applications like Mozilla, FOAF, and Chandler, as well as infrastructure you can use to build your own applications. This book cuts to the heart of the W3C's often obscure specifications, giving you tools to apply RDF successfully in your own projects.The first part of the book focuses on the RDF specifications. After an introduction to RDF, the book covers the RDF specification documents themselves, including RDF Semantics and Concepts and Abstract Model specifications, RDF constructs, and the RDF Schema. The second section focuses on programming language support, and the tools and utilities that allow developers to review, edit, parse, store, and manipulate RDF/XML. Subsequent sections focus on RDF's data roots, programming and framework support, and practical implementation and use of RDF and RDF/XML.If you want to know how to apply RDF to information processing, Practical RDF is for you. Whether your interests lie in large-scale information aggregation and analysis or in smaller-scale projects like weblog syndication, this book will provide you with a solid foundation for working with RDF.",
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2003-07-18",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VfcX9wJEH3YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VfcX9wJEH3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": [ "Computers" ],
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=VfcX9wJEH3YC&pg=PT145&dq=lang%3Den&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=VfcX9wJEH3YC&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Practical_RDF.html?hl=&id=VfcX9wJEH3YC"
+      },
+        "saleInfo": {
+          "saleability": "FOR_SALE",
+          "listPrice": {
+            "amount": 70,
+            "currencyCode": "USD",
+            "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+          },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=VfcX9wJEH3YC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false,
+        "searchInfo": {
+          "textSnippet": "... <b>lang</b>=&quot;<b>en</b>&quot;&gt; Web Resource&lt;/rdfs:label&gt; &lt;rdfs:comment xml:<b>lang</b>=&quot;<b>en</b>&quot;&gt; Web resource managed with PostCon system &lt;/rdfs:comment&gt; &lt;rdf:type rdf:resource=&quot;http://www.w3.org/2000/01/rdf-schema#Resource&quot; /&gt; &lt;/rdfs:Class&gt; &lt;rdfs:Class rdf:about&nbsp;..."
+      }
+    }
+  }
+    },
+     {
+      "id": "5H9FAAAAcAAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/5H9FAAAAcAAJ",
+      "volumeInfo": {
+        "title": "A Dictionary of the English Language",
+        "subtitle": "Revised and enlarged by Chauncey A. Goodrich. With pronouncing vocabularies of scripture, classical and geograph. names",
+        "authors": [
+          "Noah Webster"
+        ],
+        "publishedDate": "1851",
+        "description": "This is a comprehensive reference work compiled by Samuel Johnson, first published in 1755. It is renowned for its meticulous definitions and extensive coverage, marking a significant milestone in the development of English lexicography.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=5H9FAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=5H9FAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 1462,
+        "categories": [
+          "English language"
+        ]
+             },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=5H9FAAAAcAAJ&pg=PA1345&dq=lang%3Den&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=5H9FAAAAcAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=5H9FAAAAcAAJ",
+        "saleInfo": {
+          "saleability": "FOR_SALE",
+          "listPrice": {
+          "amount": 30,
+          "currencyCode": "USD",
+           "buyLink": "https://play.google.com/store/books/details?id=5H9FAAAAcAAJ&rdid=book-5H9FAAAAcAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/A_Dictionary_of_the_English_Language.epub?id=5H9FAAAAcAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=5H9FAAAAcAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>lang</b> - <b>en</b> - zal&#39;tsa <b>lang</b> - <b>en</b> - tale lang - e - ma&#39;rech lang &#39; holt lang&#39;nou lang&#39;an langr lang - dok lan - cha&#39;ron län lan - ni - li &#39; lang la&#39;os lä - pa - tit&#39;cht la - pins&#39;ka lap&#39;land or lap - länd la pla&#39;ta la &#39; pos lap po la - rany&nbsp;..."
+      }
+    }
+    },
+    {
+      "id": "4Ts97uMv138C",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4Ts97uMv138C",
+      "volumeInfo": {
+        "title": "The Language of the Heart",
+        "subtitle": "A Cultural History of the Recovery Movement from Alcoholics Anonymous to Oprah Winfrey",
+        "authors": [
+          "Trysh Travis"
+        ],
+        "publisher": "Univ of North Carolina Press",
+        "publishedDate": "2010-01-01",
+        "description": "In The Language of the Heart, Trysh Travis explores the rich cultural history of Alcoholics Anonymous (AA) and its offshoots and the larger \"recovery movement\" that has grown out of them. Moving from AA's beginnings in the mid-1930s as a men's fellowship that met in church basements to the thoroughly commercialized addiction treatment centers of today, Travis chronicles the development of recovery and examines its relationship to the broad American tradition of self-help, highlighting the roles that gender, mysticism, and bibliotherapy have played in that development.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4Ts97uMv138C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4Ts97uMv138C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 376,
+        "printType": "BOOK",
+        "categories": [
+          "Social Science"
+        ],
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=4Ts97uMv138C&pg=PA319&dq=lang%3Den&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=4Ts97uMv138C&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Language_of_the_Heart.html?hl=&id=4Ts97uMv138C"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 20,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        },
+      "accessInfo": {
+        "country": "KE",
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Language_of_the_Heart-sample-epub.acsm?id=4Ts97uMv138C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        }
+      },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4Ts97uMv138C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>lang</b>/<b>en</b>/en — pdfs/f-47 — theaaarchives.pdf]. 20 March 2009. ———. &#39;&#39;AA Preamble.&#39;&#39; [http://www.aa.org/<b>lang</b>/<b>en</b>/en — pdfs/smf-92—en.pdf]. 20 March 2009. ———. The AA Service Manual Combined with Twelve Concepts for World Service by Bill W&nbsp;..."
+      }
+    },
+    {
+      "id": "l_SQvgAACAAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/l_SQvgAACAAJ",
+      "volumeInfo": {
+        "title": "Dictionary of National Biography (Paston -Percy)",
+        "authors": [
+          "Sidney Lee"
+        ],
+        "publisher": "Palala Press",
+        "publishedDate": "2016-05-24",
+        "description": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work was reproduced from the original artifact, and remains as true to the original work as possible. Therefore, you will see the original copyright references, library stamps (as most of these works have been housed in our most important libraries around the world), and other notations in the work. This work is in the public domain in the United States of America, and possibly other nations. Within the United States, you may freely copy and distribute this work, as no entity (individual or corporate) has a copyright on the body of the work. As a reproduction of a historical artifact, this work may contain missing or blurred pages, poor pictures, errant marks, etc. Scholars believe, and we concur, that this work is important enough to be preserved, reproduced, and made generally available to the public. We appreciate your support of the preservation process, and thank you for being an important part of keeping this knowledge alive and relevant.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=l_SQvgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=l_SQvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "pageCount": 456,
+        "categories": [
+          "English language"
+        ],
+        "printType": "BOOK"
+      },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=l_SQvgAACAAJ&dq=intitle:percy&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=l_SQvgAACAAJ&dq=intitle:percy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Dictionary_of_National_Biography_Paston.html?hl=&id=l_SQvgAACAAJ",
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 20,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        }
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=l_SQvgAACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it."
+      }
+    },
+    
+    {
+      "id": "485dwwHToA8C",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/485dwwHToA8C",
+      "volumeInfo": {
+        "title": "Hedendaagsche Vaderlandsche Letter-oefeningen, Waar in de Boeken en Schriften, Die Dagelyks in Ons Vaderland en Elders Uitkomen, Oordeelkundig Tevens en Vrymoedig Verhandeld Worden. Benevens Mengelwerk, Tot Fraaije Letteren, Konsten en Weetenschappen Betrekkelyk",
+        "publishedDate": "1775",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=485dwwHToA8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=485dwwHToA8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 614,
+        "printType": "BOOK",
+        "saleInfo": {
+          "saleability": "FOR_SALE",
+          "listPrice": {
+            "amount": 22,
+            "currencyCode": "USD",
+            "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+          }
+        }
+      },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=485dwwHToA8C&pg=PA535&dq=lang%3Den&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=485dwwHToA8C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=485dwwHToA8C",
+      
+      "accessInfo": {
+        "country": "KE",
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Hedendaagsche_Vaderlandsche_Letter_oefen.epub?id=485dwwHToA8C&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=485dwwHToA8C&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... <b>lang en</b> uyt hunne kasfen gefchooten , vertoonen ; en wanneer ze vyftien Jaeren oud geworden zyn , of zelfs dikwils eerder , zyn deeze arme Dieren buyten ftaet om dienst te kunnen doen : daar dezelven integendeel , met een beter voedzel&nbsp;..."
+      }
+  },
+    {
+      "id": "478dwwYToG8R",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CjEcMgGGGwUC",
+      "volumeInfo": {
+        "title": "Percy Jackson and the Olympians, Book Two: The Sea of Monsters",
+        "authors": [
+          "Rick Riordan"
+        ],
+        "publisher": "Disney Electronic Content",
+        "publishedDate": "2013-07-02",
+        "description": "After a summer spent trying to prevent a catastrophic war among the Greek gods, Percy Jackson finds his seventh-grade school year unnervingly quiet. His biggest problem is dealing with his new friend, Tyson—a six-foot-three, mentally challenged homeless kid who follows Percy everywhere, making it hard for Percy to have any \"normal\" friends. But things don't stay quiet for long. Percy soon discovers there is trouble at Camp Half-Blood: the magical borders which protect Half-Blood Hill have been poisoned by a mysterious enemy, and the only safe haven for demigods is on the verge of being overrun by mythological monsters. To save the camp, Percy needs the help of his best friend, Grover, who has been taken prisoner by the Cyclops Polyphemus on an island somewhere in the Sea of Monsters, the dangerous waters Greek heroes have sailed for millennia—only today, the Sea of Monsters goes by a new name...the Bermuda Triangle. Now Percy and his friends—Grover, Annabeth, and Tyson—must retrieve the Golden Fleece from the Island of the Cyclopes by the end of the summer or Camp Half-Blood will be destroyed. But first, Percy will learn a stunning new secret about his family—one that makes him question whether being claimed as Poseidon's son is an honor or simply a cruel joke.",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CjEcMgGGGwUC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CjEcMgGGGwUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "saleInfo": {
+          "saleability": "FOR_SALE",
+          "listPrice": {
+            "amount": 22,
+            "currencyCode": "USD",
+            "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+          }
+      } 
+    },  
+        "pageCount": 304,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Fiction"
+      ],
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=CjEcMgGGGwUC&dq=intitle:percy&hl=&cd=7&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=CjEcMgGGGwUC&dq=intitle:percy&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Percy_Jackson_and_the_Olympians_Book_Two.html?hl=&id=CjEcMgGGGwUC"
+    },
+  {
+    "id": "FCJVO4amDMYC",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/FCJVO4amDMYC",
+    "volumeInfo": {
+      "title": "Percy Jackson – Bitva o labyrint",
+      "authors": [
+        "Rick Riordan"
+      ],
+      "publisher": "Nakladatelství Fragment",
+      "publishedDate": "2011",
+      "description": "When demonic cheerleaders invade his high school, Percy Jackson hurries to Camp Half Blood, from whence he and his demigod friends set out on a quest through the Labyrinth, while the war between the Olympians and the evil Titan lord Kronos draws near.",
+      "pageCount": 389,
+      "printType": "BOOK",
+      "categories": [
+        "Animals, Mythical"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=FCJVO4amDMYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=FCJVO4amDMYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 69,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        }
+    }
+  },
+      "language": "cs",
+      "previewLink": "http://books.google.com/books?id=FCJVO4amDMYC&dq=intitle:percy&hl=&cd=9&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=FCJVO4amDMYC&dq=intitle:percy&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Percy_Jackson_Bitva_o_labyrint.html?hl=&id=FCJVO4amDMYC",
+    "accessInfo": {
+      "country": "KE",
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=FCJVO4amDMYC&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "When demonic cheerleaders invade his high school, Percy Jackson hurries to Camp Half Blood, from whence he and his demigod friends set out on a quest through the Labyrinth, while the war between the Olympians and the evil Titan lord Kronos ..."
+    }
+  },
+
+  {
+    "id": "cSBDAQAAMAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/cSBDAQAAMAAJ",
+    "volumeInfo": {
+      "title": "The Poetical Works of Percy Bysshe Shelley",
+      "authors": [
+        "Percy Bysshe Shelley"
+      ],
+      "publishedDate": "1839",
+      "pageCount": 336,
+      "printType": "BOOK",
+      "categories": [
+        "Autographs"
+      ],
+      "contentVersion": "0.4.6.0.full.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=cSBDAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=cSBDAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=cSBDAQAAMAAJ&printsec=frontcover&dq=intitle:percy&hl=&cd=10&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=cSBDAQAAMAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cSBDAQAAMAAJ",
+    "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 32,
+          "currencyCode": "USD",
+          "country": "KE",
+         "buyLink": "https://play.google.com/store/books/details?id=cSBDAQAAMAAJ&rdid=book-cSBDAQAAMAAJ&rdot=1&source=gbs_api"
+        }     
+    }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_Poetical_Works_of_Percy_Bysshe_Shell.epub?id=cSBDAQAAMAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=cSBDAQAAMAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+    },
+  {
+    "id": "kr09DwAAQBAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/kr09DwAAQBAJ",
+    "volumeInfo": {
+      "title": "Percy Jackson and the Olympians: The Lightning Thief Illustrated Edition",
+      "authors": [
+        "Rick Riordan"
+      ],
+      "publisher": "Disney Electronic Content",
+      "publishedDate": "2018-08-14",
+      "description": "Percy Jackson is about to be kicked out of boarding school . . . again. And that's the least of his troubles. Lately, mythological monsters and the gods of Mount Olympus seem to be walking straight out of the pages of Percy's Greek mythology textbook and into his life. And worse, he's angered a few of them. Zeus's master lightning bolt has been stolen, and Percy is the prime suspect. Now Percy and his friends have just ten days to find and return Zeus's stolen property and bring peace to a warring Mount Olympus. But to succeed on his quest, Percy will have to do more than catch the true thief: he must come to terms with the father who abandoned him; solve the riddle of the Oracle, which warns him of betrayal by a friend; and unravel a treachery more powerful than the gods themselves. This deluxe edition of the internationally best-selling first book in the Percy Jackson and the Olympians series, lavishly illustrated by series artist John Rocco, is a must-have for Riordan fans.",
+      "pageCount": 226,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Fiction"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=kr09DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=kr09DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=kr09DwAAQBAJ&dq=intitle:percy&hl=&cd=6&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=kr09DwAAQBAJ&dq=intitle:percy&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Percy_Jackson_and_the_Olympians_The_Ligh.html?hl=&id=kr09DwAAQBAJ",
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "listPrice": {
+        "amount": 60,
+        "currencyCode": "USD",
+        "buyLink": "https://play.google.com/store/books/details?id=cSBDAQAAMAAJ&rdid=book-cSBDAQAAMAAJ&rdot=1&source=gbs_api"
+    }
+  }
+},
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true
+      },
+      "pdf": {
+        "isAvailable": true
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=kr09DwAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "This deluxe edition of the internationally best-selling first book in the Percy Jackson and the Olympians series, lavishly illustrated by series artist John Rocco, is a must-have for Riordan fans."
+    }
+  },
+  {
+    "id": "e8b-CwAAQBAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/e8b-CwAAQBAJ",
+    "volumeInfo": {
+      "title": "Percy Jackson's Greek Heroes",
+      "authors": [
+        "Rick Riordan"
+      ],
+      "publisher": "Noura Books",
+      "publishedDate": "2016-04-19",
+      "description": "Siapa yang tidak kenal Hercules? Tahukah kamu bagaimana perjuangannya hingga bisa dinobatkan sebagai orang Yunani terkuat saat itu? Begitu pun dengan Otrera, sang wanita petarung dari Amazon. Apa yang membuatnya amat membenci laki-laki? Sebaliknya, Eurydice begitu mencintai Orpheus, hanya saja kisah cinta mereka tak berjalan seindah lantunan lira Orpheus. Apa yang terjadi? Bersiaplah. Percy Jackson—sang demigod masa kini—kembali dengan ceritanya, kali ini mengenai para pahlawan Yunani kuno. Konon, ribuan tahun lalu, beberapa di antara mereka berhasil menyelamatkan kerajaan, melawan serangan monster, bahkan lulus menghadapi ujian dari dewa-dewi. Namun, tak sedikit para pahlawan yang kisah hidupnya memilukan—diracuni, dikhianati, dibunuh, atau diburu anggota keluarganya sendiri. [Mizan, Noura Books, Nourabooks, Fantasi, Percy Jackson, Best Seller, Novel, Terjemahan, Indonesia]",
+      "pageCount": 508,
+      "printType": "BOOK",
+      "categories": [
+        "Fiction"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=e8b-CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=e8b-CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "id",
+      "previewLink": "http://books.google.com/books?id=e8b-CwAAQBAJ&printsec=frontcover&dq=intitle:percy&hl=&cd=4&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=e8b-CwAAQBAJ&dq=intitle:percy&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Percy_Jackson_s_Greek_Heroes.html?hl=&id=e8b-CwAAQBAJ",
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "listPrice": {
+        "amount": 62,
+        "currencyCode": "USD",
+        "buyLink": "https://play.google.com/store/books/details?id=cSBDAQAAMAAJ&rdid=book-cSBDAQAAMAAJ&rdot=1&source=gbs_api"
+
+    }
+  }
+},
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Percy_Jackson_s_Greek_Heroes-sample-epub.acsm?id=e8b-CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=e8b-CwAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Siapa yang tidak kenal Hercules?"
+    }
+  },
+
+  {
+    "id": "6sFqDwAAQBAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/6sFqDwAAQBAJ",
+    "volumeInfo": {
+      "title": "The World's First Love",
+      "subtitle": "Mary, Mother of God",
+      "authors": [
+        "Fulton Sheen",
+        "Andrew Apostoli"
+      ],
+      "publisher": "Ignatius Press",
+      "publishedDate": "2018-08-22",
+      "description": "With his characteristic eloquence and brilliance, Fulton J. Sheen presents a moving portrayal of the Blessed Virgin Mary that combines deep spirituality with history, philosophy and theology. All the major aspects and events of Mary's life are lovingly portrayed in this word portrait that is a never failing source of information, consolation and inspiration. Sheen also gives profound insights into all the Marian beliefs ranging from the Immaculate Conception to the Assumption to the miracle of Our Lady of Fatima. While considering the different phases of Mary's life, Bishop Sheen discusses various problems common to mankind of every age and reveals clearly that every problem can be resolved. He emphasizes the unique dignity, strength and gifts of women and their ability to help heal the world's problems. Sheen stresses mankind's need of the Mother of God and her burning love for all her children. The great resurgence of devotion to Mary is God's way of emphasizing the worth and dignity of every person against the false doctrines that have so confused the modern world.",
+      "pageCount": 277,
+      "printType": "BOOK",
+      "categories": [
+        "Religion"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=6sFqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=6sFqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=6sFqDwAAQBAJ&printsec=frontcover&dq=intitle:mary&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=6sFqDwAAQBAJ&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_World_s_First_Love.html?hl=&id=6sFqDwAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 50,
+        "currencyCode": "USD"
+      }
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/The_World_s_First_Love-sample-epub.acsm?id=6sFqDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=6sFqDwAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "With his characteristic eloquence and brilliance, Fulton J. Sheen presents a moving portrayal of the Blessed Virgin Mary that combines deep spirituality with history, philosophy and theology."
+    }
+  },
+  {
+    "id": "o1cFAAAAQAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/o1cFAAAAQAAJ",
+    "volumeInfo": {
+      "title": "The glories of Mary, mother of God",
+      "authors": [
+        "Alfonso Maria de' Liguori (st.)"
+      ],
+      "publishedDate": "1833",
+      "pageCount": 232,
+      "printType": "BOOK",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=o1cFAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=o1cFAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=o1cFAAAAQAAJ&printsec=frontcover&dq=intitle:mary&hl=&cd=2&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=o1cFAAAAQAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=o1cFAAAAQAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FREE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=o1cFAAAAQAAJ&rdid=book-o1cFAAAAQAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_glories_of_Mary_mother_of_God.epub?id=o1cFAAAAQAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_glories_of_Mary_mother_of_God.pdf?id=o1cFAAAAQAAJ&hl=&output=pdf&sig=ACfU3U0z_Gq97l_Llm8M8U696xczcmdzyw&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=o1cFAAAAQAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "zdZuBAAAQBAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/zdZuBAAAQBAJ",
+    "volumeInfo": {
+      "title": "The Glories of Mary",
+      "subtitle": "",
+      "authors": [
+        "Saint Alphonsus de Liguori",
+        "Catholic Way Publishing"
+      ],
+      "publisher": "Catholic Way Publishing",
+      "publishedDate": "2014-09-05",
+      "description": "THE GLORIES OF MARY SAINT ALPHONSUS DE LIGUORI — A Classic! — Includes 1,934 Active Linked Endnotes — Includes an Active Index, Table of Contents and NCX Navigation — Includes Illustrations by Giovanni Antonio Canal Publisher: Available in Paperback: ISBN-13: 978-1-78379-214-6 This classic devotional work testifies to Saint Alphonsus de Liguori love of Mary and is a treasury of Marian stories and teachings. In a fittingly scholastic style, he develops and extols the many virtues of devotion to the Blessed Virgin. The Glories of Mary is divided into two parts. In Part I, Saint Alphonsus provides a phrase-by-phrase examination of the Marian hymn “Hail Holy Queen”. Part II contains meditations on various Marian themes, including her major feasts, her seven sorrows, her virtues, and practices of devotion in her honour. PUBLISHER: CATHOLIC WAY PUBLISHING",
+      "pageCount": 544,
+      "printType": "BOOK",
+      "categories": [
+        "Religion"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=zdZuBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=zdZuBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=zdZuBAAAQBAJ&printsec=frontcover&dq=intitle:mary&hl=&cd=3&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=zdZuBAAAQBAJ&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Glories_of_Mary.html?hl=&id=zdZuBAAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD"
+      }
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=zdZuBAAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "THE GLORIES OF MARY SAINT ALPHONSUS DE LIGUORI — A Classic! — Includes 1,934 Active Linked Endnotes — Includes an Active Index, Table of Contents and NCX Navigation — Includes Illustrations by Giovanni Antonio Canal Publisher: ..."
+    }
+  },
+  {
+    "id": "SGmeCAAAQBAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/SGmeCAAAQBAJ",
+    "volumeInfo": {
+      "title": "Mariology: A Dogmatic Treatise on the Blessed Virgin Mary, Mother of God",
+      "subtitle": "",
+      "authors": [
+        "Rev. Joseph Pohle Ph. D. D.",
+        "Aeterna Press"
+      ],
+      "publisher": "Aeterna Press",
+      "publishedDate": "1914",
+      "description": "Like the Hypostatic Union of the two Natures in Christ, the Divine Motherhood of the Blessed Virgin Mary may be regarded from a twofold point of view: (1) ontologically, i.e., in its objective dignity (dignitas maternitatis divinae in se); and (2) ethically, in its causal connexion with the prerogatives proper to this exalted office (plenitudo gratiae correspondens dignitati). Christology shows how the Hypostatic Union immediately and substantially sanctified the manhood of our Lord in direct proportion to His infinite dignity as Godman. In a similar though not precisely the same manner Mary’s objective dignity as mother of God constitutes both the intrinsic principle and the extrinsic standard of her supernatural purity and holiness. The one postulates the other as a cause its effect. Aeterna Press",
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 185,
+      "printType": "BOOK",
+      "categories": [
+        "Religion"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=SGmeCAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=SGmeCAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=SGmeCAAAQBAJ&printsec=frontcover&dq=intitle:mary&hl=&cd=4&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=SGmeCAAAQBAJ&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Mariology_A_Dogmatic_Treatise_on_the_Ble.html?hl=&id=SGmeCAAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 17,
+        "currencyCode": "USD"
+      }
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true
+      },
+      "pdf": {
+        "isAvailable": true
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=SGmeCAAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "The one postulates the other as a cause its effect. Aeterna Press"
+    }
+  },
+  {
+    "id": "05UUAgAAQBAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/05UUAgAAQBAJ",
+    "volumeInfo": {
+      "title": "Introduction to Mary",
+      "subtitle": "",
+      "authors": [
+        "Dr. Mark Miravalle"
+      ],
+      "publishedDate": "2006",
+      "description": "What do all the doctrines that God has revealed about the Blessed Virgin Mary have to do with me personally? How do these revealed truths about the Mother of Jesus affect my own spiritual life? How do I explain to my friends the truth about Mary and Marian devotions?Introduction to Mary helps us to answer these questions and more by presenting the fundamental elements of authentic Catholic doctrine and devotion regarding the Blessed Virgin and offers answers to ten of the more common objections to Marian doctrine and devotion.Easy to read and understand Introduction to Mary is designed to serve as a basic tool for both the parish study group and the college classroom, for both the inquiring non-Catholic and the long-standing Catholic.Dr. Mark Miravalle, husband and father of eight children, is Professor of Theology and Mariology at Franciscan University of Steubenville, an internationally known conference speaker and author of several Marian publications.In our present “Age of Mary” Dr. Miravalle offers us the opportunity, by learning the heart of Marian doctrine and devotion, to experience the truth about the person of Mary, our Spiritual Mother. For authentic love of Mary must be based on the truth about Mary.",
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "printType": "BOOK",
+      "categories": [
+        "Religion"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=05UUAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=05UUAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=05UUAgAAQBAJ&printsec=frontcover&dq=intitle:mary&hl=&cd=5&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=05UUAgAAQBAJ&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Introduction_to_Mary.html?hl=&id=05UUAgAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 25,
+        "currencyCode": "USD"
+      }
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=05UUAgAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "How do I explain to my friends the truth about Mary and Marian devotions?Introduction to Mary helps us to answer these questions and more by presenting the fundamental elements of authentic Catholic doctrine and devotion regarding the ..."
+    }
+  },
+  {
+    "id": "Q2RCAAAAYAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/Q2RCAAAAYAAJ",
+    "volumeInfo": {
+      "title": "Mariology",
+      "subtitle": "A Dogmatic Treatise on the Blessed Virgin Mary, Mother of God",
+      "authors": [
+        "Joseph Pohle"
+      ],
+      "publishedDate": "1916",
+      "description": "Mariology is the branch of theology that focuses on the study and veneration of Mary, the mother of Jesus, within Christian tradition. It encompasses various aspects of Mary's life, role, and significance within Christianity, as well as the theological doctrines and devotional practices associated with her.",
+      "pageCount": 200,
+      "printType": "BOOK",
+      "categories": [
+        "Christian saints"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Q2RCAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Q2RCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "de",
+      "previewLink": "http://books.google.com/books?id=Q2RCAAAAYAAJ&printsec=frontcover&dq=intitle:mary&hl=&cd=6&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=Q2RCAAAAYAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Q2RCAAAAYAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "specifiedPrice": {
+        "amount": 39,
+        "currencyCode": "USD"
+      },
+      "saleability": "FREE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=Q2RCAAAAYAAJ&rdid=book-Q2RCAAAAYAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mariology.epub?id=Q2RCAAAAYAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/Mariology.pdf?id=Q2RCAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3rz2JlASsWN6MMvP6AS30Vs05I9A&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=Q2RCAAAAYAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "4lXAJwsnwNQC",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/4lXAJwsnwNQC",
+    "volumeInfo": {
+      "title": "The Life of the Blessed Virgin Mary",
+      "authors": [
+        "Anna Katharina Emmerich"
+      ],
+      "publisher": "CCEL",
+      "publishedDate": "1954",
+      "pageCount": 309,
+      "printType": "BOOK",
+      "categories": [
+        "Visions"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=4lXAJwsnwNQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=4lXAJwsnwNQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=4lXAJwsnwNQC&printsec=frontcover&dq=intitle:mary&hl=&cd=7&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=4lXAJwsnwNQC&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Life_of_the_Blessed_Virgin_Mary.html?hl=&id=4lXAJwsnwNQC"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 20,
+        "currencyCode": "USD"
+      }
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=4lXAJwsnwNQC&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "8aGtAQAAQBAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/8aGtAQAAQBAJ",
+    "volumeInfo": {
+      "title": "Saint Worship and the Worship of Mary",
+      "subtitle": "Why Devotion to the Saints Makes Sense",
+      "authors": [
+        "Orestes Augustus Brownson"
+      ],
+      "publisher": "Sophia Institute Press",
+      "publishedDate": "2003",
+      "description": "Protestants call it idolatry and modernists see it as superstition, but in these lucid pages, Orestes Brownson shows that veneration of Mary and the saints is not merely permissible; it's essential for every Christian who yearns to worship God in spirit and in truth.",
+      "pageCount": 190,
+      "printType": "BOOK",
+      "categories": [
+        "Religion"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=8aGtAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=8aGtAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=8aGtAQAAQBAJ&printsec=frontcover&dq=intitle:mary&hl=&cd=8&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=8aGtAQAAQBAJ&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Saint_Worship_and_the_Worship_of_Mary.html?hl=&id=8aGtAQAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD"
+      }
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/Saint_Worship_and_the_Worship_of_Mary-sample-pdf.acsm?id=8aGtAQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=8aGtAQAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Protestants call it idolatry and modernists see it as superstition, but in these lucid pages, Orestes Brownson shows that veneration of Mary and the saints is not merely permissible; it&#39;s essential for every Christian who yearns to worship ..."
+    }
+  },
+  {
+    "id": "DQja9B4f2H8C",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/DQja9B4f2H8C",
+    "volumeInfo": {
+      "title": "The Gospel of Mary",
+      "subtitle": "Listening to the Beloved Disciple",
+      "authors": [
+        "Esther De Boer"
+      ],
+      "publisher": "A&C Black",
+      "publishedDate": "2005-06-20",
+      "description": "The success of Dan Brown's Da Vinci Code has raised new interest in Mary Magdalene and in the Gospel of Mary. Here, the author examines Mary Magdalene's influence on the beginnings of Christianity and asks what was her impact and her message? And furthermore, what became of her and her ideas? Esther de Boer studies the Gospel of Mary (the only Gospel to be named after a woman) to discover what it reveals about Mary Magdalene and to determine the origin of its portrayal. She argues that the Gospel of Mary is not a Gnostic writing but is more closely related to the writings of Philo, the letters of Paul and the Gospel of John. She demonstrates that esteem of Mary Magdalene did not just belong to the Gnostic tradition but to a broader Christian context. In order to determine this context, the study identifies the different portrayals of Mary Magdalene in the New Testament, analyses their concepts of discipleship and their views on women, and investigates their historical 'reality'. Esther de Boer concludes that the portrayal of Mary Magdalene in the Gospel of Mary is close to that in the Gospel of John, and investigates the possibility that she is concealed in the Johannine disciple loved by Jesus.",
+      "pageCount": 270,
+      "printType": "BOOK",
+      "categories": [
+        "Religion"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=DQja9B4f2H8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=DQja9B4f2H8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=DQja9B4f2H8C&printsec=frontcover&dq=intitle:mary&hl=&cd=9&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=DQja9B4f2H8C&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Gospel_of_Mary.html?hl=&id=DQja9B4f2H8C"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 39,
+        "currencyCode": "USD"
+    }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.com/books/download/The_Gospel_of_Mary-sample-pdf.acsm?id=DQja9B4f2H8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=DQja9B4f2H8C&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "And furthermore, what became of her and her ideas? Esther de Boer studies the Gospel of Mary (the only Gospel to be named after a woman) to discover what it reveals about Mary Magdalene and to determine the origin of its portrayal."
+    }
+  },
+  {
+    "id": "dsZzsAtggnUC",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/dsZzsAtggnUC",
+    "volumeInfo": {
+      "title": "Mary and the Fathers of the Church",
+      "subtitle": "The Blessed Virgin Mary in Patristic Thought",
+      "authors": [
+        "Luigi Gambero"
+      ],
+      "publisher": "Ignatius Press",
+      "publishedDate": "1999",
+      "description": "Father Luigi Gambero, internationally-known expert on early Christianity, presents a comprehensive survey of the development of Marian doctrine and devotion during the first eight centuries. Focusing on the lives and works of over thirty of the most famous Church Fathers and early Christian writers, Fr. Gambero has produced a clear and readable summary of the richness of the patristic age's theological and devotional approach to the Mother of God. The book contains numerous citations from the works of those men who developed the defining Christological and Mariological positions that have constituted the foundational doctrinal teaching of the Church. Each chapter concludes with an extended reading from the works of the patristic authors. A number of these texts have never before been published in English. The thought of the Fathers and early Christian writers continues to fascinate readers today. Their theological acuity and spiritual depth led them faithfully into the mysteries of Sacred Scripture. Their vast experience made them reliable and trustworthy witnesses to the faith of the people of God.",
+
+      "pageCount": 452,
+      "printType": "BOOK",
+      "categories": [
+        "Religion"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=dsZzsAtggnUC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=dsZzsAtggnUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=dsZzsAtggnUC&dq=intitle:mary&hl=&cd=10&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=dsZzsAtggnUC&dq=intitle:mary&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Mary_and_the_Fathers_of_the_Church.html?hl=&id=dsZzsAtggnUC"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 81,
+        "currencyCode": "USD"
+    }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true
+      },
+      "pdf": {
+        "isAvailable": true
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=dsZzsAtggnUC&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Each chapter concludes with an extended reading from the works of the patristic authors. A number of these texts have never before been published in English."
+    }
+  },
+  {
+    "id": "K-0CAAAAQAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/K-0CAAAAQAAJ",
+    "volumeInfo": {
+      "title": "The child's month of Mary",
+      "authors": [
+        "Mary (the virgin.)"
+      ],
+      "publishedDate": "1851",
+      "description": "The Month of Mary typically refers to the month of May, which is dedicated to honoring the Virgin Mary in Catholic tradition. During this month, Catholics often hold special devotions, processions, prayers, and other religious activities to honor Mary and seek her intercession.",
+      "pageCount": 68,
+      "printType": "BOOK",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=K-0CAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=K-0CAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=K-0CAAAAQAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=1&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "specifiedPrice": {
+        "amount": 32,
+        "currencyCode": "USD"
+      },
+      "saleability": "FREE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_child_s_month_of_Mary.epub?id=K-0CAAAAQAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_child_s_month_of_Mary.pdf?id=K-0CAAAAQAAJ&hl=&output=pdf&sig=ACfU3U3jHYss49eU6Td5SwaP6EvCGPUlJw&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=K-0CAAAAQAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "MD8QAAAAIAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/MD8QAAAAIAAJ",
+    "volumeInfo": {
+      "title": "The Life of the Blessed Virgin Mary",
+      "subtitle": "As Set Forth in Her Litany",
+      "authors": [
+        "Cornelius Joseph O'Connell"
+      ],
+      "publishedDate": "1914",
+      "description": "Presents a comprehensive survey of the development of Marian doctrine and devotion during the first eight centuries. Focusing on the lives and works of over thirty of the most famous Church Fathers and early Christian writers, Fr. Gambero has produced a clear and readable summary of the richness of the patristic age's theological and devotional approach to the Mother of God. The book contains numerous citations from the works of those men who developed the defining Christological and Mariological positions that have constituted the foundational doctrinal teaching of the Church. Each chapter concludes with an extended reading from the works of the patristic authors. A number of these texts have never before been published in English. The thought of the Fathers and early Christian writers continues to fascinate readers today. Their theological acuity and spiritual depth led them faithfully into the mysteries of Sacred Scripture. Their vast experience made them reliable and trustworthy witnesses to the faith of the people of God.",
+      "pageCount": 212,
+      "printType": "BOOK",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=MD8QAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=MD8QAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=MD8QAAAAIAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=2&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "specifiedPrice": {
+        "amount": 59,
+        "currencyCode": "USD"
+      },
+      "saleability": "FREE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ&rdid=book-MD8QAAAAIAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_Life_of_the_Blessed_Virgin_Mary.epub?id=MD8QAAAAIAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_Life_of_the_Blessed_Virgin_Mary.pdf?id=MD8QAAAAIAAJ&hl=&output=pdf&sig=ACfU3U1NbNnf74kF4BrL3nnVDPQybY-jFg&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=MD8QAAAAIAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "bwg9AAAAIAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/bwg9AAAAIAAJ",
+    "volumeInfo": {
+      "title": "The history of the Blessed Virgin Mary and the history of the likeness of Christ which the Jews of Tiberias made to mock at",
+      "subtitle": "the Syriac texts",
+      "authors": [
+        "Sir Ernest Alfred Wallis Budge"
+      ],
+      "publishedDate": "1899",
+      "description": "Their theological acuity and spiritual depth led them faithfully into the mysteries of Sacred Scripture. Their vast experience made them reliable and trustworthy witnesses to the faith of the people of God.",
+      "pageCount": 276,
+      "printType": "BOOK",
+      "categories": [
+        "Apocryphal books (New Testament)"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=bwg9AAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=bwg9AAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=bwg9AAAAIAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=3&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "specifiedPrice": {
+        "amount": 40,
+        "currencyCode": "USD"
+      },
+      "saleability": "FREE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ&rdid=book-bwg9AAAAIAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_history_of_the_Blessed_Virgin_Mary_a.epub?id=bwg9AAAAIAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_history_of_the_Blessed_Virgin_Mary_a.pdf?id=bwg9AAAAIAAJ&hl=&output=pdf&sig=ACfU3U29xA1Ys9b8cNTDdCAkCP1K0AqO5A&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=bwg9AAAAIAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "r5o6AAAAMAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/r5o6AAAAMAAJ",
+    "volumeInfo": {
+      "title": "Mary, Help of Christians, and the Fourteen Saints Invoked as Holy Helpers",
+      "subtitle": "Instructions, Legends, Novenas, and Prayers, with Thoughts of the Saints for Every Day in the Year",
+      "publishedDate": "1909",
+      "description": "The custom of dedicating May to Mary has been observed for centuries and has spread to many parts of the world. It serves as a way for Catholics to deepen their devotion to Mary and to express gratitude for her maternal care and intercession.",
+      "pageCount": 568,
+      "printType": "BOOK",
+      "categories": [
+        "Saints"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=r5o6AAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=r5o6AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=r5o6AAAAMAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=4&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "specifiedPrice": {
+        "amount": 11,
+        "currencyCode": "USD"
+      },
+      "saleability": "FREE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ&rdid=book-r5o6AAAAMAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_Help_of_Christians_and_the_Fourteen.epub?id=r5o6AAAAMAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/Mary_Help_of_Christians_and_the_Fourteen.pdf?id=r5o6AAAAMAAJ&hl=&output=pdf&sig=ACfU3U1MOv4UnUAUyCq_vKR1A_OdY_NZrQ&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=r5o6AAAAMAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "Mr9JAQAAIAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/Mr9JAQAAIAAJ",
+    "volumeInfo": {
+      "title": "Mary, the Mother of Jesus",
+      "subtitle": "An Essay",
+      "authors": [
+        "Alice Meynell"
+      ],
+      "publishedDate": "1912",
+      "description": "Mary, often referred to as the Virgin Mary, is a central figure in Christianity, particularly within Catholicism and Eastern Orthodoxy. According to Christian tradition, she was the mother of Jesus Christ, who is believed to be the Son of God. Mary plays a significant role in the birth, life, and crucifixion of Jesus, as recounted in the New Testament of the Bible.",
+      "pageCount": 230,
+      "printType": "BOOK",
+      "categories": [
+        "Christian art and symbolism"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Mr9JAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Mr9JAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=Mr9JAQAAIAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=5&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD"
+      },
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ&rdid=book-Mr9JAQAAIAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_the_Mother_of_Jesus.epub?id=Mr9JAQAAIAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=Mr9JAQAAIAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "UKJVAAAAcAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/UKJVAAAAcAAJ",
+    "volumeInfo": {
+      "title": "Mary in sorrow and desolation, Help of the Holy Catholic Church. With the Ritual of the Confraternity of our Lady of Dolours",
+      "authors": [
+        "Servites"
+      ],
+      "publishedDate": "1868",
+      "pageCount": 140,
+      "printType": "BOOK",
+      "categories": [
+        "Sorrows of the Blessed Virgin Mary, Devotion to"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=UKJVAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=UKJVAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=UKJVAAAAcAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=6&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 21,
+        "currencyCode": "USD"
+      },
+      "country": "KE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ&rdid=book-UKJVAAAAcAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_in_sorrow_and_desolation_Help_of_th.epub?id=UKJVAAAAcAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/Mary_in_sorrow_and_desolation_Help_of_th.pdf?id=UKJVAAAAcAAJ&hl=&output=pdf&sig=ACfU3U3FlVvgqCEledURvExXlXy0X4XhRw&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=UKJVAAAAcAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "-5wCAAAAQAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/-5wCAAAAQAAJ",
+    "volumeInfo": {
+      "title": "Mary foreshadowed; or, Considerations on the types and figures of our blessed Lady in the Old Testament, by rev. f. Thaddeus",
+      "authors": [
+        "Francis Hermans"
+      ],
+      "publishedDate": "1885",
+      "pageCount": 302,
+      "printType": "BOOK",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=-5wCAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=-5wCAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=-5wCAAAAQAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=7&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 100,
+        "currencyCode": "USD"
+      },
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api"
+    },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_foreshadowed_or_Considerations_on_t.epub?id=-5wCAAAAQAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/Mary_foreshadowed_or_Considerations_on_t.pdf?id=-5wCAAAAQAAJ&hl=&output=pdf&sig=ACfU3U0_3B_JXc-Ffn7qGp8CpKk1epe0hw&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=-5wCAAAAQAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "lw1KAAAAMAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/lw1KAAAAMAAJ",
+    "volumeInfo": {
+      "title": "The History of the Blessed Virgin Mary and The History of the Likeness of Christ which the Jews of Tiberias Made to Mock at: The Syriac texts",
+      "authors": [
+        "Sir Ernest Alfred Wallis Budge"
+      ],
+      "publishedDate": "1899",
+
+      "printType": "BOOK",
+      "categories": [
+        "Apocryphal books (New Testament)"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=lw1KAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=lw1KAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "syr",
+      "previewLink": "http://books.google.com/books?id=lw1KAAAAMAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=8&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ",
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 39,
+        "currencyCode": "USD"
+      },
+      "country": "KE",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ&rdid=book-lw1KAAAAMAAJ&rdot=1&source=gbs_api"
+    }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.epub?id=lw1KAAAAMAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.pdf?id=lw1KAAAAMAAJ&hl=&output=pdf&sig=ACfU3U0kAB8qK-NzcBSmoOQwtObTywGxsg&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=lw1KAAAAMAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "L0UYAAAAYAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/L0UYAAAAYAAJ",
+    "volumeInfo": {
+      "title": "The History of the Blessed Virgin Mary and The History of the Likeness of Christ which the Jews of Tiberias Made to Mock at: English translations",
+      "authors": [
+        "Sir Ernest Alfred Wallis Budge"
+      ],
+      "publishedDate": "1899",
+      "pageCount": 296,
+      "printType": "BOOK",
+      "categories": [
+        "Apocryphal books (New Testament)"
+      ],
+   
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=L0UYAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=L0UYAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "syr",
+      "previewLink": "http://books.google.com/books?id=L0UYAAAAYAAJ&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=9&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ"
+    },
+    "saleInfo": {
+      "country": "KE",
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 19,
+        "currencyCode": "USD",
+      "isEbook": true,
+      "buyLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ&rdid=book-L0UYAAAAYAAJ&rdot=1&source=gbs_api"
+    }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.epub?id=L0UYAAAAYAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.pdf?id=L0UYAAAAYAAJ&hl=&output=pdf&sig=ACfU3U2hh7ZbqdJtLC7BKUYK6sI8sCP9wg&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=L0UYAAAAYAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "p1qibL-iFqYC",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/p1qibL-iFqYC",
+    "volumeInfo": {
+      "title": "The Virtues of Mary",
+      "subtitle": "With a Short Dissertation on the Salve Regina",
+      "authors": [
+        "L. Lanzoni"
+      ],
+      "publishedDate": "1903",
+      "pageCount": 162,
+      "printType": "BOOK",
+      "categories": [
+        "Salve Regina"
+      ],
+    
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=p1qibL-iFqYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=p1qibL-iFqYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=p1qibL-iFqYC&printsec=frontcover&dq=intitle:mary&hl=&as_brr=6&cd=10&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "specifiedPrice": {
+        "amount": 90,
+        "currencyCode": "USD",
+      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api"
+    }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_Virtues_of_Mary.epub?id=p1qibL-iFqYC&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_Virtues_of_Mary.pdf?id=p1qibL-iFqYC&hl=&output=pdf&sig=ACfU3U0JaFFjcz-BkDQzY8eTDO-obo_VZA&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=p1qibL-iFqYC&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "K-0CAAAAQAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/K-0CAAAAQAAJ",
+    "volumeInfo": {
+      "title": "The child's month of Mary",
+      "authors": [
+        "Mary (the virgin.)"
+      ],
+      "publishedDate": "1851",
+      "pageCount": 68,
+      "printType": "BOOK",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=K-0CAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=K-0CAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=K-0CAAAAQAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=1&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=K-0CAAAAQAAJ&rdid=book-K-0CAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 9,
+        "currencyCode": "USD"
+      }
+  },     
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_child_s_month_of_Mary.epub?id=K-0CAAAAQAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_child_s_month_of_Mary.pdf?id=K-0CAAAAQAAJ&hl=&output=pdf&sig=ACfU3U3jHYss49eU6Td5SwaP6EvCGPUlJw&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=K-0CAAAAQAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "MD8QAAAAIAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/MD8QAAAAIAAJ",
+    "volumeInfo": {
+      "title": "The Life of the Blessed Virgin Mary",
+      "subtitle": "As Set Forth in Her Litany",
+      "authors": [
+        "Cornelius Joseph O'Connell"
+      ],
+      "publishedDate": "1914",
+      "pageCount": 212,
+      "printType": "BOOK",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=MD8QAAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=MD8QAAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=MD8QAAAAIAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=2&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=MD8QAAAAIAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 60,
+        "currencyCode": "USD"
+      }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_Life_of_the_Blessed_Virgin_Mary.epub?id=MD8QAAAAIAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_Life_of_the_Blessed_Virgin_Mary.pdf?id=MD8QAAAAIAAJ&hl=&output=pdf&sig=ACfU3U1NbNnf74kF4BrL3nnVDPQybY-jFg&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=MD8QAAAAIAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "bwg9AAAAIAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/bwg9AAAAIAAJ",
+    "volumeInfo": {
+      "title": "The history of the Blessed Virgin Mary and the history of the likeness of Christ which the Jews of Tiberias made to mock at",
+      "subtitle": "the Syriac texts",
+      "authors": [
+        "Sir Ernest Alfred Wallis Budge"
+      ],
+      "publishedDate": "1899",
+      "pageCount": 276,
+      "printType": "BOOK",
+      "categories": [
+        "Apocryphal books (New Testament)"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=bwg9AAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=bwg9AAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=bwg9AAAAIAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=3&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=bwg9AAAAIAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 40,
+        "currencyCode": "USD"
+      }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_history_of_the_Blessed_Virgin_Mary_a.epub?id=bwg9AAAAIAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_history_of_the_Blessed_Virgin_Mary_a.pdf?id=bwg9AAAAIAAJ&hl=&output=pdf&sig=ACfU3U29xA1Ys9b8cNTDdCAkCP1K0AqO5A&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=bwg9AAAAIAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "r5o6AAAAMAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/r5o6AAAAMAAJ",
+    "volumeInfo": {
+      "title": "Mary, Help of Christians, and the Fourteen Saints Invoked as Holy Helpers",
+      "subtitle": "Instructions, Legends, Novenas, and Prayers, with Thoughts of the Saints for Every Day in the Year",
+      "publishedDate": "1909",
+      "pageCount": 568,
+      "printType": "BOOK",
+      "categories": [
+        "Saints"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=r5o6AAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=r5o6AAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=r5o6AAAAMAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=4&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=r5o6AAAAMAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 15,
+        "currencyCode": "USD"
+      }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_Help_of_Christians_and_the_Fourteen.epub?id=r5o6AAAAMAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/Mary_Help_of_Christians_and_the_Fourteen.pdf?id=r5o6AAAAMAAJ&hl=&output=pdf&sig=ACfU3U1MOv4UnUAUyCq_vKR1A_OdY_NZrQ&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=r5o6AAAAMAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "Mr9JAQAAIAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/Mr9JAQAAIAAJ",
+    "volumeInfo": {
+      "title": "Mary, the Mother of Jesus",
+      "subtitle": "An Essay",
+      "authors": [
+        "Alice Meynell"
+      ],
+      "publishedDate": "1912",
+      "pageCount": 230,
+      "printType": "BOOK",
+      "categories": [
+        "Christian art and symbolism"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Mr9JAQAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Mr9JAQAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=Mr9JAQAAIAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=5&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Mr9JAQAAIAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 20,
+        "currencyCode": "USD"
+      }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_the_Mother_of_Jesus.epub?id=Mr9JAQAAIAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=Mr9JAQAAIAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "L0UYAAAAYAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/L0UYAAAAYAAJ",
+    "volumeInfo": {
+      "title": "The History of the Blessed Virgin Mary and The History of the Likeness of Christ which the Jews of Tiberias Made to Mock at: English translations",
+      "authors": [
+        "Sir Ernest Alfred Wallis Budge"
+      ],
+      "publishedDate": "1899",
+      "pageCount": 296,
+      "printType": "BOOK",
+      "categories": [
+        "Apocryphal books (New Testament)"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=L0UYAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=L0UYAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "syr",
+      "previewLink": "http://books.google.com/books?id=L0UYAAAAYAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=6&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=L0UYAAAAYAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 60,
+        "currencyCode": "USD"
+      }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.epub?id=L0UYAAAAYAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.pdf?id=L0UYAAAAYAAJ&hl=&output=pdf&sig=ACfU3U2hh7ZbqdJtLC7BKUYK6sI8sCP9wg&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=L0UYAAAAYAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "UKJVAAAAcAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/UKJVAAAAcAAJ",
+    "volumeInfo": {
+      "title": "Mary in sorrow and desolation, Help of the Holy Catholic Church. With the Ritual of the Confraternity of our Lady of Dolours",
+      "authors": [
+        "Servites"
+      ],
+      "publishedDate": "1868",
+      "pageCount": 140,
+      "printType": "BOOK",
+      "categories": [
+        "Sorrows of the Blessed Virgin Mary, Devotion to"
+      ],
+
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=UKJVAAAAcAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=UKJVAAAAcAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=UKJVAAAAcAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=7&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UKJVAAAAcAAJ"
+    },
+    "saleInfo": {
+      "saleability": "FOR_SALE",
+      "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+      "specifiedPrice": {
+        "amount": 37,
+        "currencyCode": "USD"
+      }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_in_sorrow_and_desolation_Help_of_th.epub?id=UKJVAAAAcAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/Mary_in_sorrow_and_desolation_Help_of_th.pdf?id=UKJVAAAAcAAJ&hl=&output=pdf&sig=ACfU3U3FlVvgqCEledURvExXlXy0X4XhRw&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=UKJVAAAAcAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "-5wCAAAAQAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/-5wCAAAAQAAJ",
+    "volumeInfo": {
+      "title": "Mary foreshadowed; or, Considerations on the types and figures of our blessed Lady in the Old Testament, by rev. f. Thaddeus",
+      "authors": [
+        "Francis Hermans"
+      ],
+      "publishedDate": "1885",
+      "description": "Mary Foreshadowed; or, Considerations on the Types and Figures of Our Blessed Lady in the Old Testament by Rev. F. Thaddeus sounds like a theological work that explores the parallels between figures and events in the Old Testament and the life of Mary, the mother of Jesus, in Christian tradition. The title suggests that the author examines how Mary's life, attributes, and role in salvation history were prefigured or symbolized by various characters, symbols, and events in the Hebrew Scriptures.",
+      "pageCount": 302,
+      "printType": "BOOK",
+
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=-5wCAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=-5wCAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=-5wCAAAAQAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=8&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ"
+    },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=-5wCAAAAQAAJ&rdid=book--5wCAAAAQAAJ&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 13,
+          "currencyCode": "USD"
+        }
+    },
+  
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/Mary_foreshadowed_or_Considerations_on_t.epub?id=-5wCAAAAQAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/Mary_foreshadowed_or_Considerations_on_t.pdf?id=-5wCAAAAQAAJ&hl=&output=pdf&sig=ACfU3U0_3B_JXc-Ffn7qGp8CpKk1epe0hw&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=-5wCAAAAQAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "lw1KAAAAMAAJ",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/lw1KAAAAMAAJ",
+    "volumeInfo": {
+      "title": "The History of the Blessed Virgin Mary and The History of the Likeness of Christ which the Jews of Tiberias Made to Mock at: The Syriac texts",
+      "authors": [
+        "Sir Ernest Alfred Wallis Budge"
+      ],
+      "publishedDate": "1899",
+      "description": "The History of the Likeness of Christ which the Jews of Tiberias Made to Mock at are Syriac texts that provide insights into early Christian perspectives and traditions surrounding Mary and Jesus.",
+      "printType": "BOOK",
+      "categories": [
+        "Apocryphal books (New Testament)"
+      ],
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=lw1KAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=lw1KAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      }
+    },
+      "language": "syr",
+      "previewLink": "http://books.google.com/books?id=lw1KAAAAMAAJ&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=9&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=lw1KAAAAMAAJ",
+    "saleInfo": {
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 41,
+          "currencyCode": "USD"
+        }
+    }
+  },
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.epub?id=lw1KAAAAMAAJ&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_History_of_the_Blessed_Virgin_Mary_a.pdf?id=lw1KAAAAMAAJ&hl=&output=pdf&sig=ACfU3U0kAB8qK-NzcBSmoOQwtObTywGxsg&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=lw1KAAAAMAAJ&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "id": "p1qibL-iFqYC",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/p1qibL-iFqYC",
+    "volumeInfo": {
+      "title": "The Virtues of Mary",
+      "subtitle": "With a Short Dissertation on the Salve Regina",
+      "authors": [
+        "L. Lanzoni"
+      ],
+      "publishedDate": "1903",
+      "description": " The virtues attributed to Mary, the mother of Jesus, are revered in various Christian traditions and hold significant spiritual and theological importance. While different branches of Christianity may emphasize different aspects, some commonly recognized virtues of Mary",
+      "pageCount": 162,
+      "printType": "BOOK",
+      "categories": [
+        "Salve Regina"
+      ],
+  
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=p1qibL-iFqYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=p1qibL-iFqYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=p1qibL-iFqYC&printsec=frontcover&dq=intitle:mary+-author:mary&hl=&as_brr=6&cd=10&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC"
+    },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 30,
+          "currencyCode": "USD"
+        }
+    },
+
+    "accessInfo": {
+      "country": "KE",
+      "viewability": "ALL_PAGES",
+      "embeddable": true,
+      "publicDomain": true,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false,
+        "downloadLink": "http://books.google.com/books/download/The_Virtues_of_Mary.epub?id=p1qibL-iFqYC&hl=&output=epub&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "downloadLink": "http://books.google.com/books/download/The_Virtues_of_Mary.pdf?id=p1qibL-iFqYC&hl=&output=pdf&sig=ACfU3U0JaFFjcz-BkDQzY8eTDO-obo_VZA&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=p1qibL-iFqYC&hl=&as_brr=6&source=gbs_api",
+      "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+      "quoteSharingAllowed": false
+    }
+  },
+{
+      "id": "r43TCQAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/r43TCQAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE First Language English Teacher's Resource",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2014-09-11",
+        "description": "Up-to-date resources providing full coverage of Cambridge IGCSE® First Language English (0500 and 0522) for first examination in 2015. This standalone, photocopiable Teacher's Resource Book provides a complete solution to teaching the Cambridge IGCSE First Language English. It contains teaching resources not linked to the coursebook or workbook topics, so it can be used independently or to supplement teaching using the other components in the suite. It contains 28 themed units grouped into six parts focusing on the following skills: Reading comprehension, Writers' effects, Summary, Directed writing, Composition and Coursework. The Teacher's Resource Book includes practical advice for teachers as well as worksheets with answers and full lesson plans. A microsite provides free online resources to support the course.",
+        "pageCount": 177,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=r43TCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=r43TCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=r43TCQAAQBAJ&printsec=frontcover&dq=languageenglish&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=r43TCQAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_T.html?hl=&id=r43TCQAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 70,
+          "currencyCode": "USD"
+        }
+    },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_T-sample-pdf.acsm?id=r43TCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=r43TCQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "It contains teaching resources not linked to the coursebook or workbook topics, so it can be used independently or to supplement teaching using the other components in the suite."
+      }
+    },
+    {
+      "id": "RgdZDwAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RgdZDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE® First Language English Language and Skills Practice Book",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2018-05-17",
+        "description": "Fully updated, flexible resources taking an active-learning approach that encourages students to aim higher in the 0500, 0524 and 0990 syllabuses. Explore the mysterious River Congo in Joseph Conrad's Heart of Darkness, meet Noppakhoa - the elephant who loves to paint, and learn fiery facts about rockets. Through interesting topics and exam-style questions, this write-in language skills and practice book provides students with the grammar practice they need for the course and beyond. The clear layout of the book makes focussing on particular grammatical concepts easy, allowing teachers to tailor lessons to their class. Suggested answers to questions are at the back of the book.",
+        "pageCount": 145,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RgdZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RgdZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=RgdZDwAAQBAJ&printsec=frontcover&dq=languageenglish&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=RgdZDwAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_L.html?hl=&id=RgdZDwAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 30,
+          "currencyCode": "USD"
+        }
+    },      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_L-sample-pdf.acsm?id=RgdZDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RgdZDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The clear layout of the book makes focussing on particular grammatical concepts easy, allowing teachers to tailor lessons to their class. Suggested answers to questions are at the back of the book."
+      }
+    },
+    {
+      "id": "6a4EAAAAMAAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6a4EAAAAMAAJ",
+      "volumeInfo": {
+        "title": "The State of the Language",
+        "subtitle": "English Observed",
+        "authors": [
+          "Philip Howard"
+        ],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "1985",
+        "description": "Is the English language in decline? Many people seem to think so--but Philip Howard isn't one of them. The Literary Editor of The Times of London, Howard takes a robust, commonsensical view of the changes that are happening in English. His is not the Panglossian attitude that all is neccessarily for the best in the best of all possible languages, but he does feel that change is necessary--and healthy--in any living language. Howard here examines the language in its various branches and categories, such as grammar and pronunciation, spelling and punctuation, dialect and slang. He discusses the effect the new technologies, from cable TV to photocomposition, are having on the mother tongue, and he examines the new dialects that are coming into use. He navigates the back streets of euphemism and the broad, boring boulevards of cliche. He asks whether the language is actually changing as fast as we suppose, and, if so, why. Howard argues that as far as we can, we should strive to direct and control the changes in English in ways that increase its power. And where we can't help it, he says, we should lie back and enjoy its immense richness, which is unrivaled by any other language. Rather than have us wring our hands, Philip Howard entreats us, with his customary with and erudition, to use our tongues in concert with our brains. About the Author: Philip Howard is the author of New Words for Old, Weasel Words, Words Fail Me, and, most recently, A Word in Your Ear.",
+        "pageCount": 200,
+        "printType": "BOOK",
+        "categories": [
+          "English language"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6a4EAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6a4EAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6a4EAAAAMAAJ&q=languageenglish&dq=languageenglish&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=6a4EAAAAMAAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_State_of_the_Language.html?hl=&id=6a4EAAAAMAAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 20,
+          "currencyCode": "USD"
+        }
+    },      "accessInfo": {
+        "country": "KE",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6a4EAAAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "About the Author: Philip Howard is the author of New Words for Old, Weasel Words, Words Fail Me, and, most recently, A Word in Your Ear."
+      }
+    },
+    {
+      "id": "6QAPBAAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6QAPBAAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE First Language English Workbook",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2014-08-14",
+        "description": "Up-to-date resources providing full coverage of Cambridge IGCSE® First Language English (0500 and 0522) for first examination in 2015. This updated, write-in Workbook can be used for independent learning, for homework tasks or revision. It contains text extracts from around the world with linked exercises for students to practise the skills they need for the Cambridge IGCSE. Exercises are grouped into 12 diverse units on cross-curricula topics which are not linked to the Coursebook themes, so students remain engaged in the reading material. The Workbook has been completely updated in line with the new syllabus. It is particularly suitable for students who need additional support with language and grammar. A microsite provides free online resources to support the course.",
+        "pageCount": 135,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6QAPBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6QAPBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6QAPBAAAQBAJ&printsec=frontcover&dq=languageenglish&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=6QAPBAAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_W.html?hl=&id=6QAPBAAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 130,
+          "currencyCode": "USD"
+        }
+    },      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_W-sample-pdf.acsm?id=6QAPBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6QAPBAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Exercises are grouped into 12 diverse units on cross-curricula topics which are not linked to the Coursebook themes, so students remain engaged in the reading material. The Workbook has been completely updated in line with the new syllabus."
+      }
+    },
+    {
+      "id": "RAdZDwAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RAdZDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE® First Language English Coursebook",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2018-05-17",
+        "description": "Fully updated, flexible resources taking an active-learning approach that encourages students to aim higher in the 0500, 0524 and 0990 syllabuses. With travel writing, magazine articles, blogs and extracts from writers such as Roald Dahl and D. H. Lawrence, this coursebook helps students develop their English Language skills through an active, communicative approach. The first unit in each part covers text analysis, summary writing and note-taking. The second deals with directed writing and the third looks at descriptive and narrative composition and includes suggestions for coursework topics if your school follows this pathway. Suggested answers to coursebook questions are included in the teacher's book.",
+        "pageCount": 185,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RAdZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RAdZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=RAdZDwAAQBAJ&pg=PT30&dq=languageenglish&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=RAdZDwAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_C.html?hl=&id=RAdZDwAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 10,
+          "currencyCode": "USD"
+        }
+    },     
+     "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_C-sample-pdf.acsm?id=RAdZDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RAdZDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... and structure of the programme. □ Explain the aims and what is involved. □ Comment on the benefits of taking part and give examples of your own. 3 Give your talk to the class, and be prepared. Cambridge IGCSE First \u003cb\u003eLanguage English\u003c/b\u003e."
+      }
+    },
+    {
+      "id": "iY3TCQAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iY3TCQAAQBAJ",
+      "volumeInfo": {
+        "title": "Cambridge IGCSE First Language English Coursebook with Free Digital Content",
+        "authors": [
+          "Marian Cox"
+        ],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2014-07-10",
+        "description": "Up-to-date resources providing full coverage of Cambridge IGCSE® First Language English (0500 and 0522) for first examination in 2015. This Fourth edition Coursebook is designed to support the Cambridge IGCSE First Language English (0500) and Cambridge International Level 1/Level 2 Certificate First Language English (0522). It teaches all the skills required for the Cambridge IGCSE and includes activities on a variety of engaging topics, set out in 14 lively, full-colour units. All our supporting resources, like audio files and answer sheets, have now moved to Cambridge GO. Go to Cambridge GO to register and access files for any of your Cambridge titles. If you already have an account, just log in and go to 'add new resources'.",
+        "pageCount": 161,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iY3TCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iY3TCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=iY3TCQAAQBAJ&pg=PA30&dq=languageenglish&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=iY3TCQAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Cambridge_IGCSE_First_Language_English_C.html?hl=&id=iY3TCQAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 8,
+          "currencyCode": "USD"
+        }
+    },     
+     "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Cambridge_IGCSE_First_Language_English_C-sample-pdf.acsm?id=iY3TCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iY3TCQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... World Economic Forum, an international non-protmaking foundation intended to promote entrepreneurialism. 33 Schoolsnet.com The site at www.schoolsnet.com provides educational content for. Cambridge IGCSE First \u003cb\u003eLanguage English\u003c/b\u003e."
+      }
+    },
+    {
+      "id": "73IiAgAAQBAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/73IiAgAAQBAJ",
+      "volumeInfo": {
+        "title": "We Do Language: English Variation in the Secondary English Classroom",
+        "authors": [
+          "Anne H. Charity Hudley",
+          "Christine Mallinson"
+        ],
+        "publisher": "Teachers College Press",
+        "publishedDate": "2013-11-29",
+        "description": "We Do Language builds on the authors' highly acclaimed first collaboration, Understanding English Language Variation in U.S. Schools, and examines the need to integrate linguistically informed teaching into the secondary English classroom. The book includes specific information about the language varieties students bring with them to school so that educators can better assist students in developing the literacy skills necessry for the Common Core State Standards. This resource features concrete strategies, models, and vignettes, as well as classroom materials developed by English educators for English educators.",
+        "pageCount": 177,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=73IiAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=73IiAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=73IiAgAAQBAJ&pg=PR7&dq=languageenglish&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=73IiAgAAQBAJ&dq=languageenglish&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/We_Do_Language_English_Variation_in_the.html?hl=&id=73IiAgAAQBAJ"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=p1qibL-iFqYC&rdid=book-p1qibL-iFqYC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 50,
+          "currencyCode": "USD"
+        }
+    },    
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/We_Do_Language_English_Variation_in_the-sample-pdf.acsm?id=73IiAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=73IiAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... \u003cb\u003eLanguage: English\u003c/b\u003e Language Variation in the Secondary English Classroom, they have penned a volume that lays out in an accessible, pragmatic, and adaptable way the thorny problem space that secondary English/language arts professionals&nbsp;..."
+      }
+    },
+    {
+      "id": "tEboMJM-qEUC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tEboMJM-qEUC",
+      "volumeInfo": {
+        "title": "Dictionary of the Hausa Language: English-Hausa",
+        "authors": [
+          "Charles Henry Robinson"
+        ],
+        "publishedDate": "1900",
+        "description": "Hausa Language",
+        "pageCount": 236,
+        "printType": "BOOK",
+        "categories": [
+          "English language"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tEboMJM-qEUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tEboMJM-qEUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=tEboMJM-qEUC&pg=PA24&dq=languageenglish&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=tEboMJM-qEUC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tEboMJM-qEUC"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "buyLink": "https://play.google.com/store/books/details?id=tEboMJM-qEUC&rdid=book-tEboMJM-qEUC&rdot=1&source=gbs_api",
+        "specifiedPrice": {
+          "amount": 40,
+          "currencyCode": "USD"
+        }
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/Dictionary_of_the_Hausa_Language_English.epub?id=tEboMJM-qEUC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tEboMJM-qEUC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "id": "asva9hdFtLYC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/asva9hdFtLYC",
+      "volumeInfo": {
+        "title": "School Dictionary of the German Language: English-German",
+        "authors": [
+          "W. & R. Chambers Ltd"
+        ],
+        "publishedDate": "1881",
+        "description": "Germany Language",
+        "pageCount": 518,
+        "printType": "BOOK",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=asva9hdFtLYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=asva9hdFtLYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=asva9hdFtLYC&pg=PT6&dq=languageenglish&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=asva9hdFtLYC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=asva9hdFtLYC"
+      },
+      "saleInfo": {
+        "country": "KE",
+          "saleability": "FOR_SALE",
+          "specifiedPrice": {
+            "amount": 40,
+            "currencyCode": "USD"
+          },
+        "buyLink": "https://play.google.com/store/books/details?id=asva9hdFtLYC&rdid=book-asva9hdFtLYC&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/School_Dictionary_of_the_German_Language.epub?id=asva9hdFtLYC&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=asva9hdFtLYC&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "id": "4uIUAAAAYAAJ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4uIUAAAAYAAJ",
+      "volumeInfo": {
+        "title": "A Dictionary of the Central Nicobarese Language (English)",
+        "authors": [
+          "Edward Horace Man"
+        ],
+        "publishedDate": "1889",
+        "description": "The Dictionary",
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": [
+          "English language"
+        ],
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=4uIUAAAAYAAJ&pg=PP2&dq=languageenglish&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "KE",
+        "saleability": "FOR_SALE",
+        "specifiedPrice": {
+          "amount": 140,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ&rdid=book-4uIUAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "KE",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com/books/download/A_Dictionary_of_the_Central_Nicobarese_L.epub?id=4uIUAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/A_Dictionary_of_the_Central_Nicobarese_L.pdf?id=4uIUAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3Q1ZbRVgZivgdZ_44ySY6wEQfsxQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=4uIUAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "... CHRISTO ولة لوفود 47 HAR ARDIAN FROM THE BEQUEST OF FRANCIS B. HAYES Class of 1839 This fund is $ 10,000 and its income is to be used For the purchase of books for the Library &quot; C A DICTIONARY"
+      }
+    },
+    {
+      "id": "1",
+      "volumeInfo": {
+      "title": "A Dictionary of the Central Nicobarese Language",
+      "authors": [
+        "Francis B. Hayes"
+      ],
+      "publisher": "Trustees of the British Museum",
+      "publishedDate": "1839",
+      "description": "This book is a dictionary of the Central Nicobarese language. It was published in 1839 by the Trustees of the British Museum. The book is written by Francis B. Hayes, who was a member of the Asiatic Society of Bengal.",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "infoLink": "http://books.google.com/books?id=4uIUAAAAYAAJ&dq=language:english&hl=&source=gbs_api"
+    },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "FOR_SALE",
+        "isEbook": true
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/A_Dictionary_of_the_Central_Nicobarese_L.epub?id=4uIUAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true
+        }
+      }
+    }
+    ]
+}
