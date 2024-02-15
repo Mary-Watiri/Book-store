@@ -10,7 +10,6 @@
           "Pavel Shvaiko"
         ],
         "description": "This is another sample book description.",
-        "publishedDate": "1880",
         "imageLinks": {
           "smallThumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
           "thumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
@@ -42,7 +41,7 @@
       "searchInfo": {
         "textSnippet": "... <b>Lang</b>&#39;s Valley , a post - office of Lake co . , Oregon . Langelsheim , <b>lång</b>&#39;els - hime &#39; , a town of Germany ... <b>en</b> - öls &#39; , two contiguous villages of Prussian Silesia , government of Liegnitz . Pop . 2644 . Langensalza , <b>lang</b>&nbsp;..."
       }
-    },
+  },
     {
       "id": "nzLABAAAQBAJ",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/nzLABAAAQBAJ",
@@ -2633,7 +2632,7 @@
       "id": "4uIUAAAAYAAJ",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/4uIUAAAAYAAJ",
       "volumeInfo": {
-        "title": "A Dictionary of the Central Nicobarese Language (English-Nicobarese and Nicobarese-English), with Appendices Containing a Comparison of Synonymous Words in the Remaining Nicobarese Forms and Other Matters, Preceded by Notes on the Grammar of the Central Form",
+        "title": "A Dictionary of the Central Nicobarese Language (English)",
         "authors": [
           "Edward Horace Man"
         ],
@@ -2655,12 +2654,12 @@
       },
       "saleInfo": {
         "country": "KE",
-          "saleability": "FOR_SALE",
-          "specifiedPrice": {
-            "amount": 140,
-            "currencyCode": "USD"
-          },
-          "buyLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ&rdid=book-4uIUAAAAYAAJ&rdot=1&source=gbs_api"
+        "saleability": "FOR_SALE",
+        "specifiedPrice": {
+          "amount": 140,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=4uIUAAAAYAAJ&rdid=book-4uIUAAAAYAAJ&rdot=1&source=gbs_api"
       },
       "accessInfo": {
         "country": "KE",
@@ -2681,8 +2680,44 @@
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "... CHRISTO ولة לופוד 47 HAR ARDIAN FROM THE BEQUEST OF FRANCIS B. HAYES Class of 1839 This fund is $ 10,000 and its income is to be used For the purchase of books for the Library &quot; C A DICTIONARY OF THE CENTRAL NICOBARESE \u003cb\u003eLANGUAGE ( ENGLISH\u003c/b\u003e."
+        "textSnippet": "... CHRISTO ولة لوفود 47 HAR ARDIAN FROM THE BEQUEST OF FRANCIS B. HAYES Class of 1839 This fund is $ 10,000 and its income is to be used For the purchase of books for the Library &quot; C A DICTIONARY"
+      }
+    },
+    {
+      "id": "1",
+      "volumeInfo": {
+      "title": "A Dictionary of the Central Nicobarese Language",
+      "authors": [
+        "Francis B. Hayes"
+      ],
+      "publisher": "Trustees of the British Museum",
+      "publishedDate": "1839",
+      "description": "This book is a dictionary of the Central Nicobarese language. It was published in 1839 by the Trustees of the British Museum. The book is written by Francis B. Hayes, who was a member of the Asiatic Society of Bengal.",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=4uIUAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "infoLink": "http://books.google.com/books?id=4uIUAAAAYAAJ&dq=language:english&hl=&source=gbs_api"
+    },
+      "saleInfo": {
+        "country": "GB",
+        "saleability": "FOR_SALE",
+        "isEbook": true
+      },
+      "accessInfo": {
+        "country": "GB",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com/books/download/A_Dictionary_of_the_Central_Nicobarese_L.epub?id=4uIUAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true
+        }
       }
     }
-  ]
+    ]
 }

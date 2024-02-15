@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import AddToCart from './AddToCart';
 
-function BookList({ addBookToCart }) {
+function BookList({ addToCart }) {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
@@ -15,13 +16,9 @@ function BookList({ addBookToCart }) {
       });
   }, []);
 
-  function handleAddBookToCart(bookId) {
-    addBookToCart(bookId);
-  }
-
   return (
     <div>
-      <h2 style={{ color: 'white', fontSize: '40px', marginBottom: '10px' }}>BOOK LIST</h2>
+      <h2 style={{ color: 'black', fontSize: '40px', marginBottom: '10px' }}>BOOK LIST</h2>
       {books.length > 0 ? (
         <div
           style={{
@@ -29,7 +26,7 @@ function BookList({ addBookToCart }) {
             padding: '10px',
             borderRadius: '15px',
             marginBottom: '20px',
-            backgroundColor: 'white',
+            backgroundColor: 'black',
             display: 'grid',
             gridTemplateColumns: '1fr 1fr 1fr',
             gap: '3rem',
@@ -45,13 +42,14 @@ function BookList({ addBookToCart }) {
             <div
               key={book.title || index}
               style={{
-                border: '5px solid black',
+                border: '5px solid white',
                 padding: '10px',
                 marginBottom: '10px',
                 borderRadius: '9px',
+                color: 'white'
               }}
             >
-              <h3>{book.volumeInfo?.title || 'Unknown Title'}</h3>
+              <h3>{book.volumeInfo.title || 'Unknown Title'}</h3>
               <h4>{book.volumeInfo?.authors ? book.volumeInfo.authors.join(', ') : 'Unknown Author'}</h4>
               <p>{book.volumeInfo?.description ? book.volumeInfo.description : 'No description available'}</p>
               {book.volumeInfo && book.volumeInfo.categories ? (
@@ -59,37 +57,16 @@ function BookList({ addBookToCart }) {
               ) : (
                 <p>Category: Unknown</p>
               )}
-            {book.saleInfo && book.saleInfo.listPrice && book.saleInfo.listPrice.amount ? (
-                <p>
-                    Price: {book.saleInfo.listPrice.amount} {book.saleInfo.listPrice.currencyCode}
+              <p>
+                Price: {book.saleInfo?.listPrice?.amount ?? book.saleInfo?.specifiedPrice?.amount ?? "Not for Sale"}{" "}
+                {book.saleInfo?.listPrice?.currencyCode ?? book.saleInfo?.specifiedPrice?.currencyCode}
                 </p>
-                ) : book.saleInfo && book.saleInfo.specifiedPrice && book.saleInfo.specifiedPrice.amount ? (
-                <p>
-                    Price: {book.saleInfo.specifiedPrice.amount} {book.saleInfo.specifiedPrice.currencyCode}
-                </p>
-                ) : (
-                <p>Price: Not for Sale</p>
-                )}
                  <img
                src={book.volumeInfo?.imageLinks?.thumbnail || ''}
                 alt={book.volumeInfo?.title || 'No Title'}
                 style={{ maxWidth: '200px' }}
               />
-              <div>
-                <button
-                  style={{
-                    backgroundColor: 'black',
-                    color: 'white',
-                    border: 'none',
-                    padding: '5px 10px',
-                    borderRadius: '5px',
-                    cursor: 'pointer',
-                  }}
-                  onClick={() => handleAddBookToCart(book.id)}
-                >
-                  Add To Cart
-                </button>
-              </div>
+               <AddToCart bookId={book.id} addToCart={addToCart} />
             </div>
           ))}
         </div>
