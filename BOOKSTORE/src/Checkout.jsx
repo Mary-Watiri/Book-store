@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
 
 const Checkout = () => {
