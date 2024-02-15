@@ -95,7 +95,7 @@ function Dashboard({ priceTag, addBookToCart }) {
 
   return (
     <div className='firser'>
-      <h2>BOOK LIST</h2>
+      <h2 style={{textAlign: 'center'}}>DASHBOARD</h2>
       {errorMessage && <p>{errorMessage}</p>}
       {showForm ? (
         <SimpleForm onSubmit={handleFormSubmit} passcode={passcode} />
