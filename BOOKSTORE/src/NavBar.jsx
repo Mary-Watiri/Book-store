@@ -18,7 +18,7 @@ const NavBar = ({ handleSearch, handleCategory }) => {
   };
 
   return (
-    <header className="navbar"> {/* Added wrapping header with 'navbar' class */}
+    <header className="navbar"> 
     <div className="search">
     <form onSubmit={handleSubmit}>
         <input

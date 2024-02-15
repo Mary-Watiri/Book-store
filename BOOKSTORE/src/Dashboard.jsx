@@ -18,9 +18,7 @@ function Dashboard({ priceTag, addBookToCart }) {
       });
   }, []);
 
-  function handleAddBookToCart(bookId) {
-    addBookToCart(bookId);
-  }
+ 
 
   function handlePasscodeChange(event) {
     setPasscode(event.target.value);
@@ -75,7 +73,7 @@ function Dashboard({ priceTag, addBookToCart }) {
         if (response.ok) {
           console.log('Book added successfully');
           setShowForm(false);
-          // Refresh the book list after adding the new book
+        
           fetch('http://localhost:3000/items')
             .then(response => response.json())
             .then(data => {
