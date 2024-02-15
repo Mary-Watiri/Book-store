@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+
+
+import React, { useState } from "react";
 
 
 function Cart({ cartItems }) {
@@ -12,25 +14,32 @@ function Cart({ cartItems }) {
 
   return (
     <div>
-      <h2 style={{ cursor: 'pointer' }} onClick={toggleCart}>
-        Basket ({cartItemCount})
-      </h2>
+      <h2 onClick={toggleCart}>Basket ({cartItemCount})</h2>
       {isCartOpen && (
         <div>
           <ul>
             {cartItems.map((item, index) => (
               <li key={index}>
-                <img src={item.image} alt={item.title} style={{ width: '200px', height: 'auto', marginRight: '10px' }} />
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  style={{
+                    width: "400px",
+                    height: "600px",
+                    marginRight: "10px",
+                  }}
+                />
                 <strong>{item.title}</strong> - {item.price}
               </li>
             ))}
           </ul>
-          <button onClick={() => handleCheckout()}>Checkout</button>
-         
+          
+            <button>Checkout</button>
+          
         </div>
       )}
     </div>
   );
 }
 
-export default Cart; 
+export default Cart;
