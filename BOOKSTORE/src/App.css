@@ -9,20 +9,33 @@
   padding: 20px 0;
 }
 
-
 .contact-info {
   display: flex;
-  justify-content: center; /* Align items horizontally in the center */
-  gap: 40px; /* Adjust the gap between icons and labels */
+  justify-content: center;
+  gap: 40px;
 }
 
 .contact-info > div {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center; 
 }
 
-.contact-info > div > span {
-  margin-top: 10px; /* Adjust spacing between icon and label */
+.leave-message form .submit-button {
+  margin-left: 10px;
 }
 
+.leave-message form label,
+.leave-message form input,
+.leave-message form textarea {
+  margin-right: 10px;
+}
+.leave-message form label:last-child,
+.leave-message form input:last-child,
+.leave-message form textarea:last-child {
+  margin-right: 0;
+}
+
+.leave-message form textarea {
+  margin-top: 5px;
+}

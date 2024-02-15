@@ -7,9 +7,9 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="contact-info">
-        <div><MdEmail /><span>Email: </span></div>
-        <div><MdLocationOn /><span>Location: </span></div>
-        <div><MdPhone /><span>Phone: </span></div>
+        <div><MdEmail /><span>Email: info@bookstore.com</span></div>
+        <div><MdLocationOn /><span>Location: Ngong Lane , Nairobi Kenya</span></div>
+        <div><MdPhone /><span>Phone: 0207643533</span></div>
       </div>
       <div className="leave-message">
         <h3>Leave a Message</h3>
@@ -20,7 +20,8 @@ function Footer() {
           <input type="email" id="email" name="email" />
           <label htmlFor="message">Message:</label>
           <textarea id="message" name="message"></textarea>
-          <button type="submit">Submit</button>
+          <button type="submit" className="submit-button">Submit</button>
+
         </form>
       </div>
       <div className="social-icons">
