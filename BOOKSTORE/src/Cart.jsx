@@ -27,9 +27,6 @@ function Cart({ cartItems }) {
 
   const cartItemCount = cart ? cart.length : 0;
 
-  console.log("Cart Items:", cartItems); 
-
-
   return (
     <div>
       <h2 style={{ fontSize: '25px', marginBottom: '10px', color: 'black', cursor: 'pointer', backgroundColor: 'white', padding: '10px', border: '1px solid #cc' }} onClick={toggleCart}>
@@ -71,8 +68,3 @@ function Cart({ cartItems }) {
 }
 
 export default Cart;
-
-
-
-
-

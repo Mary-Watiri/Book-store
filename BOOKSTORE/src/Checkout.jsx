@@ -34,7 +34,7 @@ const Checkout = () => {
       alert(`Transaction completed by ${name}`);
     });
   };
-   
+
   return (
     <div className="checkout" style={{ textAlign: 'center', marginTop: '20px' }}>
       {isPending ? (
@@ -50,7 +50,7 @@ const Checkout = () => {
             <option value="EUR">💶 Euro</option>
           </select>
           <PayPalButtons
-            style={{  marginTop: '20px' }}
+            style={{ marginTop: '20px' }}
             createOrder={(data, actions) => onCreateOrder(data, actions)}
             onApprove={(data, actions) => onApproveOrder(data, actions)}
           />

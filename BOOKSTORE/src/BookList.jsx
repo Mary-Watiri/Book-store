@@ -22,10 +22,11 @@ function BookList({ addToCart }) {
       {books.length > 0 ? (
         <div
           style={{
-            border: '2px solid blue',
+            border: '5px solid white',
             padding: '10px',
-            borderRadius: '15px',
             marginBottom: '20px',
+            borderRadius: '9px',
+            color: 'white',
             backgroundColor: 'black',
             display: 'grid',
             gridTemplateColumns: '1fr 1fr 1fr',
@@ -42,11 +43,10 @@ function BookList({ addToCart }) {
             <div
               key={book.title || index}
               style={{
-                border: '5px solid white',
+                border: '1px solid gray',
                 padding: '10px',
                 marginBottom: '10px',
-                borderRadius: '9px',
-                color: 'white'
+                borderRadius: '5px',
               }}
             >
               <h3>{book.volumeInfo.title || 'Unknown Title'}</h3>
@@ -60,13 +60,13 @@ function BookList({ addToCart }) {
               <p>
                 Price: {book.saleInfo?.listPrice?.amount ?? book.saleInfo?.specifiedPrice?.amount ?? "Not for Sale"}{" "}
                 {book.saleInfo?.listPrice?.currencyCode ?? book.saleInfo?.specifiedPrice?.currencyCode}
-                </p>
-                 <img
-               src={book.volumeInfo?.imageLinks?.thumbnail || ''}
+              </p>
+              <img
+                src={book.volumeInfo?.imageLinks?.thumbnail || ''}
                 alt={book.volumeInfo?.title || 'No Title'}
                 style={{ maxWidth: '200px' }}
               />
-               <AddToCart bookId={book.id} addToCart={addToCart} />
+              <AddToCart bookId={book.id} addToCart={addToCart} />
             </div>
           ))}
         </div>
@@ -78,6 +78,3 @@ function BookList({ addToCart }) {
 }
 
 export default BookList;
-
-
-

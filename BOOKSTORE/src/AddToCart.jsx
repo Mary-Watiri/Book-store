@@ -42,4 +42,3 @@ function AddToCart({ bookId, addToCart }) {
 }
 
 export default AddToCart;
-
