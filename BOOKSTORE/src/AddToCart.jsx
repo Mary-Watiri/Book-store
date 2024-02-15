@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function AddToCart({ bookId, addToCart }) {
   const [isChecked, setIsChecked] = useState(false);
@@ -20,6 +20,7 @@ function AddToCart({ bookId, addToCart }) {
         onChange={handleCheckboxChange}
         style={{ marginRight: '10px' }}
       />
+
       <button
         onClick={handleAddToCart}
         style={{
@@ -37,6 +38,7 @@ function AddToCart({ bookId, addToCart }) {
       >
         Add to Cart
       </button>
+
     </div>
   );
 }
