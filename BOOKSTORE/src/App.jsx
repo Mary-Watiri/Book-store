@@ -26,7 +26,7 @@ function App() {
       <div className='RoutePath'>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/BookList" element={<BookList addToCart={addToCart} />} />
           <Route path="/cart" element={<Cart cartItems={cartItems} />} />
           <Route path="/footer" element={<Footer />} />

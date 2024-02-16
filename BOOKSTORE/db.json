@@ -1,50 +1,6 @@
 {
   "items": [
     {
-      "id": "R9zPRFeo8ZMC",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/R9zPRFeo8ZMC",
-      "volumeInfo": {
-        "title": "Lippincott's Gazetteer of the World",
-        "authors": [
-          "Jérôme Euzenat",
-          "Pavel Shvaiko"
-        ],
-        "description": "This is another sample book description.",
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=R9zPRFeo8ZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "categories": [
-          "Gazetteers"
-        ],
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=R9zPRFeo8ZMC&pg=PA1193&dq=lang%3Den&hl=&cd=1&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC"
-      },
-      "saleInfo": {
-        "saleability": "FOR_SALE",
-        "listPrice": {
-          "amount": 15,
-          "currencyCode": "USD"
-        }
-      },
-      "accessInfo": {
-        "country": "KE",
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false,
-          "downloadLink": "http://books.google.com/books/download/Lippincott_s_Gazetteer_of_the_World.epub?id=R9zPRFeo8ZMC&hl=&output=epub&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=R9zPRFeo8ZMC&hl=&source=gbs_api",
-        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "... <b>Lang</b>&#39;s Valley , a post - office of Lake co . , Oregon . Langelsheim , <b>lång</b>&#39;els - hime &#39; , a town of Germany ... <b>en</b> - öls &#39; , two contiguous villages of Prussian Silesia , government of Liegnitz . Pop . 2644 . Langensalza , <b>lang</b>&nbsp;..."
-      }
-    },
-    {
       "id": "VfcX9wJEH3YC",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/VfcX9wJEH3YC",
       "volumeInfo": {

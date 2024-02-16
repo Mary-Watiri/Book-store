@@ -38,11 +38,17 @@ const NavBar = ({ handleSearch, handleCategory }) => {
             <button>{category}</button>
           </Link>
         ))}
-        {/* <Link to="BookList">
-          <button>BookList</button>
-        </Link> */}
+        </div>
+        <div className="topNav">
+        <Link to="/BookList">Books Available </Link>
+        <Link to="DashBoard">
+          <button>Dashboard</button>
+        </Link>
         <Link to="/footer">
           <button>Footer</button>
+        </Link>
+        <Link to="Cart">
+          <button>Basket</button>
         </Link>
       </div>
     </header>
