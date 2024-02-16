@@ -99,7 +99,7 @@ function Dashboard({ priceTag, addBookToCart }) {
   return (
     <div className='firser'>
       {/* Display error message if there is any */}
-      {errorMessage && <p>{errorMessage}</p>}
+      {errorMessage && <alert>{errorMessage}</alert>}
       {/* Render SimpleForm if showForm is true, otherwise render books list */}
       {showForm ? (
         <SimpleForm onSubmit={handleFormSubmit} passcode={passcode} />

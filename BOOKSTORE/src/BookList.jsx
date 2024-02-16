@@ -27,6 +27,7 @@ function BookList({ addToCart }) {
         // Grid layout for displaying books
         <div
           style={{
+            width: '130rem',
             border: '5px solid white',
             padding: '10px',
             marginBottom: '20px',
@@ -41,7 +42,8 @@ function BookList({ addToCart }) {
             paddingLeft: '4px',
             paddingTop: '24px',
             paddingInlineStart: '20px',
-            height: "700px"
+            height: "700px",
+            fontSize: '30px'
           }}
         >
           {/* Map through fetched books and render each */}

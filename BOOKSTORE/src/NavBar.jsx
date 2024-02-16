@@ -21,7 +21,8 @@ const NavBar = ({ handleSearch, handleCategory }) => {
         ))}
       </div>
       {/* Top navigation links */}
-      <div className="topNav">
+     
+      <div className="topNav" id='topNav'>
         <Link to="/BookList">Books Available </Link>
         <Link to="/DashBoard">Dashboard</Link>
         <Link to="/Footer">Footer</Link>

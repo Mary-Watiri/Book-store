@@ -55,6 +55,60 @@
       }
     },
     {
+      "id": "VfcX9wJEH3YC",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VfcX9wJEH3YC",
+      "volumeInfo": {
+        "title": "Practical RDF",
+        "subtitle": "Solving Problems with the Resource Description Framework",
+        "authors": [
+          "Shelley Powers"
+        ],
+        "description": "The Resource Description Framework (RDF) is a structure for describing and interchanging metadata on the Web--anything from library catalogs and worldwide directories to bioinformatics, Mozilla internal data structures, and knowledge bases for artificial intelligence projects. RDF provides a consistent framework and syntax for describing and querying data, making it possible to share website descriptions more easily. RDF's capabilities, however, have long been shrouded by its reputation for complexity and a difficult family of specifications. Practical RDF breaks through this reputation with immediate and solvable problems to help you understand, master, and implement RDF solutions.Practical RDF explains RDF from the ground up, providing real-world examples and descriptions of how the technology is being used in applications like Mozilla, FOAF, and Chandler, as well as infrastructure you can use to build your own applications. This book cuts to the heart of the W3C's often obscure specifications, giving you tools to apply RDF successfully in your own projects.The first part of the book focuses on the RDF specifications. After an introduction to RDF, the book covers the RDF specification documents themselves, including RDF Semantics and Concepts and Abstract Model specifications, RDF constructs, and the RDF Schema. The second section focuses on programming language support, and the tools and utilities that allow developers to review, edit, parse, store, and manipulate RDF/XML. Subsequent sections focus on RDF's data roots, programming and framework support, and practical implementation and use of RDF and RDF/XML.If you want to know how to apply RDF to information processing, Practical RDF is for you. Whether your interests lie in large-scale information aggregation and analysis or in smaller-scale projects like weblog syndication, this book will provide you with a solid foundation for working with RDF.",
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2003-07-18",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VfcX9wJEH3YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VfcX9wJEH3YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=VfcX9wJEH3YC&pg=PT145&dq=lang%3Den&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=VfcX9wJEH3YC&dq=lang%3Den&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Practical_RDF.html?hl=&id=VfcX9wJEH3YC"
+      },
+      "saleInfo": {
+        "saleability": "FOR_SALE",
+        "listPrice": {
+          "amount": 70,
+          "currencyCode": "USD",
+          "buyLink": "https://play.google.com/store/books/details?id=R9zPRFeo8ZMC&rdid=book-R9zPRFeo8ZMC&rdot=1&source=gbs_api"
+        },
+        "accessInfo": {
+          "country": "KE",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true
+          },
+          "pdf": {
+            "isAvailable": true
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=VfcX9wJEH3YC&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false,
+          "searchInfo": {
+            "textSnippet": "... <b>lang</b>=&quot;<b>en</b>&quot;&gt; Web Resource&lt;/rdfs:label&gt; &lt;rdfs:comment xml:<b>lang</b>=&quot;<b>en</b>&quot;&gt; Web resource managed with PostCon system &lt;/rdfs:comment&gt; &lt;rdf:type rdf:resource=&quot;http://www.w3.org/2000/01/rdf-schema#Resource&quot; /&gt; &lt;/rdfs:Class&gt; &lt;rdfs:Class rdf:about&nbsp;..."
+          }
+        }
+      }
+    },
+    {
       "id": "5H9FAAAAcAAJ",
       "selfLink": "https://www.googleapis.com/books/v1/volumes/5H9FAAAAcAAJ",
       "volumeInfo": {
