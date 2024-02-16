@@ -77,7 +77,7 @@ function App() {
     setCartItems((prevItems) => [...prevItems, book]);
   };
 
-  return (
+  return 
     <>
       <header>
         <h1 style={{ textAlign: 'left' }}>{pageTitle}</h1>
@@ -99,8 +99,9 @@ function App() {
       </div>
 
       <Cart cartItems={cartItems} />
-    </div>
-  );
-}
+    </>
+    
+  {/* ); */}
+{/* } */}
 
 export default App;
