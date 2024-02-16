@@ -1,73 +1,143 @@
-.dashboardTitle{
-  color: black;
+*{
+    margin: 0;
+    padding: 0;
 }
+.dashboard {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.dashboardContainer{
+    display: inline-block;
+}
+.dashboard img{
+    width: 250px;
+}
+.dashboard button {
+    background-color: black;
+}
+.dashboard input{
+   position: absolute;
+   width: 400px;
+   height: 100px;
+   left: 80%;
+   text-align: center;
+   border-radius: 20px;
+}
+.dashboard input::placeholder{
+    font-size: 30px;
+}
+  #buttons-container {
+    position: absolute;
+    left: 20%;
+  } 
 
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+  .searcher input {
+    width: 400px;
+    height: 200px;
+    margin-top: 10rem;
+    margin-left: 320px;
   }
-  a:hover {
-    color: #747bff;
+  .searcher {
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    top: 16%;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    font-size: 0px;
   }
-  button {
-    background-color: #f9f9f9;
+  .image2 {
+    width: 100%;
+    height: 100vh;
+    top: 15%;
+    position: absolute;
   }
-} */
-
+  .image img {
+    width: 280px;
+  }
+  .dashboardContainer button {
+    border: none;
+    width: 130px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: "Abril Fatface", serif;
+  }
+  .navbar{
+    width: 100%;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  .lists{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+  .lists input{
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    margin-left: 50em;
+  }
+  .lists input::placeholder{
+    font-size: 30px;
+  }
+  .lists select{
+    height: 90px;
+    width: 400px;
+    font-size: 30px;
+  }
+  .image2{
+    position: absolute;
+    top: 70%;
+  }
+ 
+  button{
+    background-color: white;
+    border: none;
+    margin-left: 17rem;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: "Protest Guerrilla", sans-serif;
+  }
+  .categories{
+    background-color: black;
+    height: 90px;
+  }
+.categories button{
+    margin-left: 200px;
+}
+span{
+    font-size: 30px;
+}
+.leave-message input{
+    width: 400px;
+    height: 100px; 
+}
+.leave-message textarea{
+    height: 300px;
+    width: 400px;
+}
+label{
+    font-size: 30px;
+}
+.add{
+    position: absolute;
+    left: 30%;
+  
+    font-size: 50px;
+    text-decoration: underline;
+}
+.firser input{
+    width: 300px;
+    height: 70px;
+}

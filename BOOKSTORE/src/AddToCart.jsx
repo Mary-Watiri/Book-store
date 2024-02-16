@@ -1,25 +1,35 @@
 import React, { useState } from 'react';
 
+// Define a functional component named AddToCart which takes two props: bookId and addToCart function
 function AddToCart({ bookId, addToCart }) {
+  // Define a state variable isChecked using the useState hook, initially set to false
   const [isChecked, setIsChecked] = useState(false);
 
+  // Function to handle checkbox change event
   const handleCheckboxChange = () => {
+    // Toggle the isChecked state when the checkbox is clicked
     setIsChecked(!isChecked);
   };
 
+  // Function to handle the add to cart button click event
   const handleAddToCart = () => {
+    // Call the addToCart function passed as prop with bookId and isChecked as arguments
     addToCart(bookId, isChecked);
+    // Set isChecked to true after adding to cart
     setIsChecked(true);
   };
 
+  // Return JSX for rendering the checkbox and add to cart button
   return (
     <div>
+      {/* Checkbox input */}
       <input
         type="checkbox"
         checked={isChecked}
         onChange={handleCheckboxChange}
         style={{ marginRight: '10px' }}
       />
+      {/* Add to Cart button */}
       <button
         onClick={handleAddToCart}
         style={{
@@ -41,4 +51,5 @@ function AddToCart({ bookId, addToCart }) {
   );
 }
 
+// Export the AddToCart component as default
 export default AddToCart;
