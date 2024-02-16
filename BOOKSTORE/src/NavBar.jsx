@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
+import "./App.css"
 const NavBar = ({ handleSearch, handleCategory }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const categories = ['Gazetteers', 'Computers', 'Political Science', 'English language', 'Social Science', 'Juvenile Fiction'];
@@ -19,22 +20,30 @@ const NavBar = ({ handleSearch, handleCategory }) => {
 
   return (
     <header className="navbar"> 
-    <div className="search">
-    <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Search books by name"
-          value={searchTerm}
-          onChange={handleChange}
-        />
-        <button type="submit">Search</button>
-      </form>
-    </div>
+      <div className="search">
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Search books by name"
+            value={searchTerm}
+            onChange={handleChange}
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
       
       <div className="categories">
         {categories.map((category, index) => (
-          <button key={index} onClick={() => handleCategoryClick(category)}>{category}</button>
+          <Link to={`/booklist?category=${category}`} key={index}>
+            <button>{category}</button>
+          </Link>
         ))}
+        {/* <Link to="BookList">
+          <button>BookList</button>
+        </Link> */}
+        <Link to="/footer">
+          <button>Footer</button>
+        </Link>
       </div>
     </header>
   );

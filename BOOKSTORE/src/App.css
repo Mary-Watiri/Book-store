@@ -1,4 +1,4 @@
-* {
+/* /* * {
   background-color: black;
   color: #fff;
   font-size: 40px;
@@ -183,3 +183,17 @@ header {
   top: 45%;
   left: 38%;
 }
+.RoutePath{
+  color:red;
+  background-color: red;
+}
+/* .nav-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color:red;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: blue;
+}  */ */
