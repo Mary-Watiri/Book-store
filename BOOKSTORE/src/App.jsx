@@ -14,16 +14,19 @@ const initialOptions = {
 };
 
 function App() {
+  // State variables to manage books data, filtered books, page title, and current category
   const [books, setBooks] = useState([]);
   const [filteredBooks, setFilteredBooks] = useState([]);
   const [currentCategory, setCurrentCategory] = useState(null);
   const [pageTitle] = useState("Book-Store");
   const [cartItems, setCartItems] = useState([]);
 
+  // Fetch books data from the server when the component mounts
   useEffect(() => {
     fetchBooks();
   }, []);
 
+  // Function to fetch books data from the server
   const fetchBooks = async () => {
     try {
       const response = await fetch('http://localhost:3000/items');
@@ -32,28 +35,33 @@ function App() {
       }
       const data = await response.json();
       setBooks(data);
-      setFilteredBooks(data);
+      setFilteredBooks(currentCategory ? data.filter(book => book.categories.includes(currentCategory)) : data);
     } catch (error) {
       console.error('Error fetching books:', error);
     }
   };
 
+  // Function to handle search functionality
   const handleSearch = async (searchTerm) => {
     try {
-      const response = await fetch(`http://localhost:3000/items?name=${searchTerm}`);
+      // const response = await fetch(`http://localhost:3000/items?title=${searchTerm}`);
+      const response = await fetch(`http://localhost:3000/items?title=${searchTerm}`);
       if (!response.ok) {
         throw new Error('Failed to search books');
       }
       const data = await response.json();
       setFilteredBooks(data);
+      setCurrentCategory(null); // Reset category filter when searching
     } catch (error) {
       console.error('Error searching books:', error);
     }
   };
 
+  // Function to handle category selection
   const handleCategory = async (category) => {
     try {
-      const response = await fetch(`http://localhost:3000/items?category=${category}`);
+      // const response = await fetch(`http://localhost:3000/items?category=${category}`);
+      const response = await fetch(`http://localhost:3000/items`);
       if (!response.ok) {
         throw new Error('Failed to fetch books by category');
       }
@@ -70,21 +78,14 @@ function App() {
   };
 
   return (
-    <div>
-      <PayPalScriptProvider options={initialOptions}>
-        <Checkout />
-        <Footer />
-      </PayPalScriptProvider>
-
+    <>
       <header>
         <h1 style={{ textAlign: 'left' }}>{pageTitle}</h1>
       </header>
       <NavBar handleSearch={handleSearch} handleCategory={handleCategory} />
 
-      <BookList books={filteredBooks} addToCart={addToCart} />
-      {currentCategory && <h2>{currentCategory} Books</h2>}
-
       <div className="book-cards">
+        {currentCategory && <h2>{currentCategory} Books</h2>}
         <div className="card-container">
           {filteredBooks.map((book) => (
             <div key={book.id} className="card">
