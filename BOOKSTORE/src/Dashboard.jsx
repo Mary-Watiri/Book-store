@@ -19,7 +19,6 @@ function Dashboard({ priceTag, addBookToCart }) {
   }, []);
 
  
-
   function handlePasscodeChange(event) {
     setPasscode(event.target.value);
   }
@@ -93,7 +92,6 @@ function Dashboard({ priceTag, addBookToCart }) {
 
   return (
     <div className='firser'>
-      <h2 style={{textAlign: 'center'}}>DASHBOARD</h2>
       {errorMessage && <p>{errorMessage}</p>}
       {showForm ? (
         <SimpleForm onSubmit={handleFormSubmit} passcode={passcode} />

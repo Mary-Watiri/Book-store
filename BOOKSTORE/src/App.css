@@ -1,9 +1,3 @@
-/* /* * {
-  background-color: black;
-  color: #fff;
-  font-size: 40px;
-  font-family: "Smooch Sans", sans-serif;
-}
 
 /* Styling for the header and navbar */
 header {
@@ -17,22 +11,24 @@ header {
   display: inline-block; 
   justify-content: flex-end;
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.5);
-  width: 90%;
-  height: 10%;
+  background-color: #171717;
+  width: 100%;
+  height: 15%;
   position: absolute;
   top: 0; 
   left: 0;
 }
+background-image: url('/images/photo-1481627834876-b7833e8f5570.avif'); /* Relative path */
+
 
 .NavBar {
   margin: 0 auto;
 }
 
-.navbar h1 {
+/* .navbar h1 {
   color: rgb(240, 226, 226);
-  margin-left: 20px;
-}
+  margin-left: 200px;
+} */
 
 .navbar form {
   display: flex;
@@ -44,7 +40,19 @@ header {
   margin: 0 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  width: 800px;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
 }
+
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+}
+
 
 .navbar button {
   padding: 8px 15px;
@@ -53,6 +61,10 @@ header {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 20px;
+  width: 200px;
+  height: 60px;
+  margin-left: 200px;
 }
 
 .navbar button:hover {
@@ -183,10 +195,26 @@ header {
   top: 45%;
   left: 38%;
 }
-.RoutePath{
+
+.image{
+  position: absolute;
+  top: 15%;
+  left: 85%;
+}
+.image img{
+  width: 280px;
+}
+.image2 {
+  width: 100%;
+  height: 100vh;
+  top: 15%;
+  position: absolute;
+}
+
+/* .RoutePath{
   color:red;
   background-color: red;
-}
+} */
 /* .nav-link {
   margin-right: 10px;
   text-decoration: none;
@@ -196,4 +224,4 @@ header {
 
 .nav-link:hover {
   color: blue;
-}  */ */
+}  */ 
