@@ -6,6 +6,7 @@ const NavBar = () => {
   return (
     <header className="navbar" style={{ backgroundColor: 'black', padding: '10px', borderBottom: '1px solid #ccc' }}>
       <div className="topNav" id="topNav" style={{ display: 'flex', justifyContent: 'space-around' }}>
+      <Link to="/" style={{ textDecoration: 'none', color: 'white' }}>Home</Link>
         <Link to="/BookList" style={{ textDecoration: 'none', color: 'white' }}>Books Available</Link>
         <Link to="/DashBoard" style={{ textDecoration: 'none', color: 'white' }}>Dashboard</Link>
         <Link to="/Footer" style={{ textDecoration: 'none', color: 'white' }}>Footer</Link>

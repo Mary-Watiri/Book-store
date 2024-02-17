@@ -7,6 +7,7 @@ import NavBar from './NavBar';
 import Dashboard from './Dashboard';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importing Router components
 import Footer from './Footer';
+import Home from './Home';
 
 // Initial options for PayPal integration
 const initialOptions = {
@@ -43,10 +44,12 @@ function App() {
 
           {/* Routing Configuration */}
           <Routes>
+            <Route path="/"element={<Home/>}/>
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/BookList" element={<BookList addToCart={addToCart} selectedCategory={selectedCategory} searchTerm={searchTerm} />} />
             {/* <Route path="/cart" element={<Cart cartItems={cartItems} />} /> */}
             <Route path="/footer" element={<Footer />} />
+
           </Routes>
         </div>
       </Router>

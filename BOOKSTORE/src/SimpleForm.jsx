@@ -1,17 +1,15 @@
+// SimpleForm.jsx
 import React, { useState } from 'react';
 
-function SimpleForm({ onSubmit, passcode }) {
-  // State for form data and password
+function SimpleForm({ onSubmit }) {
   const [formData, setFormData] = useState({
     name: '',
     author: '',
     category: '',
     picture: ''
   });
-  const [password, setPassword] = useState('');
 
-  // Function to handle form input changes
-  const handleChange = (event) => {
+  const handleChange = event => {
     const { name, value } = event.target;
     setFormData(prevState => ({
       ...prevState,
@@ -19,28 +17,13 @@ function SimpleForm({ onSubmit, passcode }) {
     }));
   };
 
-  // Function to handle form submission
-  const handleSubmit = (event) => {
+  const handleSubmit = event => {
     event.preventDefault();
-    // Check if password matches the passcode
-    if (password === passcode) {
-      // Call onSubmit function with form data
-      onSubmit(formData);
-    } else {
-      // Alert for invalid password
-      alert('Invalid password');
-    }
-  };
-
-  // Function to handle password input change
-  const handlePasswordChange = (event) => {
-    setPassword(event.target.value);
+    onSubmit(formData);
   };
 
   return (
-    // Form for adding a book
     <form onSubmit={handleSubmit}>
-      {/* Input fields for name, author, category, and picture URL */}
       <label>
         Name:
         <input
@@ -77,16 +60,6 @@ function SimpleForm({ onSubmit, passcode }) {
           onChange={handleChange}
         />
       </label>
-      {/* Input field for password */}
-      <label>
-        Password:
-        <input
-          type="password"
-          value={password}
-          onChange={handlePasswordChange}
-        />
-      </label>
-      {/* Submit button */}
       <button type="submit">Submit</button>
     </form>
   );
