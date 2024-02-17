@@ -1,8 +1,7 @@
-// Dashboard.jsx
 import React, { useState, useEffect } from 'react';
 import SimpleForm from './SimpleForm.jsx';
 
-function Dashboard() {
+function Dashboard({ priceTag, addBookToCart }) {
   const [books, setBooks] = useState([]);
   const [passcode, setPasscode] = useState('');
   const [showForm, setShowForm] = useState(false);
@@ -15,9 +14,13 @@ function Dashboard() {
         setBooks(data);
       })
       .catch(error => {
-        console.error('Error fetching books: ', error);
+        console.error('Error fetching book ', error);
       });
   }, []);
+
+  function handleAddBookToCart(bookId) {
+    addBookToCart(bookId);
+  }
 
   function handlePasscodeChange(event) {
     setPasscode(event.target.value);
@@ -45,8 +48,12 @@ function Dashboard() {
   }
 
   function handleAddButtonClick() {
-    setShowForm(true);
-    setErrorMessage('');
+    if (passcode === 'victor') {
+      setShowForm(true);
+      setErrorMessage('');
+    } else {
+      setErrorMessage('Invalid password');
+    }
   }
 
   function handleFormSubmit(formData) {
@@ -68,13 +75,14 @@ function Dashboard() {
         if (response.ok) {
           console.log('Book added successfully');
           setShowForm(false);
+          // Refresh the book list after adding the new book
           fetch('http://localhost:3000/items')
             .then(response => response.json())
             .then(data => {
               setBooks(data);
             })
             .catch(error => {
-              console.error('Error fetching books: ', error);
+              console.error('Error fetching book ', error);
             });
         } else {
           console.error('Error adding book:', response.statusText);
@@ -86,31 +94,34 @@ function Dashboard() {
   }
 
   return (
-    <div className='dashboard'>
-      {errorMessage && <div className="alert">{errorMessage}</div>}
+    <div className='firser'>
+      <h2 style={{textAlign: 'center'}}>DASHBOARD</h2>
+      {errorMessage && <p>{errorMessage}</p>}
       {showForm ? (
-        <SimpleForm onSubmit={handleFormSubmit} />
+        <SimpleForm onSubmit={handleFormSubmit} passcode={passcode} />
       ) : (
         <>
-          <input
-            type="password"
-            placeholder="Enter passcode"
-            value={passcode}
-            onChange={handlePasscodeChange}
-          />
-          {books.length > 0 ? (
-            books.map((book, index) => (
-              <div key={book.id || index} className="dashboardContainer">
-                <img
-                  src={book.picture || ''}
-                  alt={book.name || 'No Title'}
-                />
-                <button onClick={() => handleDeleteBook(book.id)}>Delete</button>
-              </div>
-            ))
-          ) : (
-            <p>Loading...</p>
-          )}
+          <div className="dashboard">
+            <input
+              type="password"
+              placeholder="Enter passcode"
+              value={passcode}
+              onChange={handlePasscodeChange}
+            />
+            {books.length > 0 ? (
+              books.map((book, index) => (
+                <div key={book.title || index} className="dashboardContainer">
+                  <img
+                    src={book.volumeInfo?.imageLinks?.thumbnail || ''}
+                    alt={book.volumeInfo?.title || 'No Title'}
+                  />
+                  <button style={{backgroundColor:"white",color:"black"}} onClick={() => handleDeleteBook(book.id)}>Delete</button>
+                </div>
+              ))
+            ) : (
+              <p>Loading...</p>
+            )}
+          </div>
           <button className='add' onClick={handleAddButtonClick}>ADD</button>
         </>
       )}

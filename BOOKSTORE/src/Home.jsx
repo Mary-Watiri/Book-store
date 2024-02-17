@@ -19,9 +19,11 @@ function Home() {
         color: 'white',
       }}
     >
+        <div>
       <h1>Welcome to BOOK WORM'S</h1>
-      <p>Welcome to the land of stories, where each book is a new adventure waiting to be explored</p>
-      <p>Explore our products and services</p>
+      </div>
+      <p style={{color:"white",fontSize:"2rem"}}>Welcome to the land of stories,where each book is a new adventure waiting to be explored</p>
+      <p style={{color:"white",fontSize:"2rem"}}>Explore our products and services</p>
     </div>
   );
 }
