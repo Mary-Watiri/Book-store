@@ -45,7 +45,7 @@ function App() {
           <Routes>
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/BookList" element={<BookList addToCart={addToCart} selectedCategory={selectedCategory} searchTerm={searchTerm} />} />
-            <Route path="/cart" element={<Cart cartItems={cartItems} />} />
+            {/* <Route path="/cart" element={<Cart cartItems={cartItems} />} /> */}
             <Route path="/footer" element={<Footer />} />
           </Routes>
         </div>
@@ -53,7 +53,7 @@ function App() {
 
       {/* PayPalScriptProvider for PayPal integration */}
       <PayPalScriptProvider options={initialOptions}>
-        <Cart cartItems={cartItems} />
+         <Cart cartItems={cartItems} /> 
       </PayPalScriptProvider>  
     </div>
   );

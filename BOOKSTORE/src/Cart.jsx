@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { FaShoppingCart } from 'react-icons/fa'; // Importing the cart icon
 import Checkout from './Checkout'; // Importing Checkout component
 
 function Cart({ cartItems }) {
@@ -40,8 +41,10 @@ function Cart({ cartItems }) {
   return (
     <div>
       {/* Cart header with item count, clickable to toggle cart visibility */}
-      <h2 style={{ fontSize: '25px', marginBottom: '10px', color: 'red', cursor: 'pointer', backgroundColor: 'white', padding: '10px', border: '1px solid #cc' }} onClick={toggleCart}>
-        Basket ({cartItemCount})
+      <h2 style={{ fontSize: '25px', marginBottom: '10px', color: 'red', cursor: 'pointer', backgroundColor: 'black', padding: '10px', border: '1px solid #cc' }} onClick={toggleCart}>
+        {/* Cart icon */}
+        <FaShoppingCart style={{ marginRight: '5px' }} /> 
+        ({cartItemCount})
       </h2>
       {/* Render cart contents if cart is open */}
       {isCartOpen && (

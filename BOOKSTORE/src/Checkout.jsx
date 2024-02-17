@@ -27,6 +27,7 @@ const Checkout = () => {
         {
           amount: {
             value: "8.99", // Hardcoded order amount for demonstration
+            currency_code: currency, // Dynamic currency selection
           },
         },
       ],
@@ -57,6 +58,7 @@ const Checkout = () => {
             {/* Currency options */}
             <option value="USD">💵 USD</option>
             <option value="EUR">💶 Euro</option>
+            <option value="KES">💰 KES</option> {/* Adding Kenyan Shilling (KES) */}
           </select>
           {/* Render PayPal buttons */}
           <PayPalButtons

@@ -1,32 +1,22 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import { FaShoppingBasket } from 'react-icons/fa'; // Importing the basket icon from react-icons/fa
 
-const NavBar = ({ handleSearch, handleCategory }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const categories = ['Gazetteers', 'Computers', 'Political Science', 'English language', 'Social Science', 'Juvenile Fiction'];
-
-  // Function to handle category click
-  const handleCategoryClick = (category) => {
-    handleCategory(category);
-  };
-
+const NavBar = () => {
   return (
-    <header className="navbar">
-      {/* Category links */}
-      <div className="categories">
-        {categories.map((category, index) => (
-          <Link to={`/booklist?category=${category}`} key={index}>
-            <button>{category}</button>
-          </Link>
-        ))}
-      </div>
-      {/* Top navigation links */}
-     
-      <div className="topNav" id='topNav'>
-        <Link to="/BookList">Books Available </Link>
-        <Link to="/DashBoard">Dashboard</Link>
-        <Link to="/Footer">Footer</Link>
-        <Link to="/Cart">Basket</Link>
+    <header className="navbar" style={{ backgroundColor: 'black', padding: '10px', borderBottom: '1px solid #ccc' }}>
+      <div className="topNav" id="topNav" style={{ display: 'flex', justifyContent: 'space-around' }}>
+        <Link to="/BookList" style={{ textDecoration: 'none', color: 'white' }}>Books Available</Link>
+        <Link to="/DashBoard" style={{ textDecoration: 'none', color: 'white' }}>Dashboard</Link>
+        <Link to="/Footer" style={{ textDecoration: 'none', color: 'white' }}>Footer</Link>
+
+        {/* Link to the cart component with a basket icon */}
+        <Link to="/Cart" style={{ textDecoration: 'none', color: 'white', display: 'flex', alignItems: 'center' }}>
+        <FaShoppingBasket style={{ marginRight: '5px', color: 'white' }} />
+{/* Basket icon */}
+  {/* Cart */}
+</Link>
+
       </div>
     </header>
   );
