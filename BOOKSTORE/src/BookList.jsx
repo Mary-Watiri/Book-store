@@ -163,6 +163,7 @@ function BookList({ addToCart }) {
   );
 }
 
+
 // CategoryButton component to render category buttons
 const CategoryButton = ({
   category,
@@ -189,3 +190,4 @@ const CategoryButton = ({
 };
 
 export default BookList;
+

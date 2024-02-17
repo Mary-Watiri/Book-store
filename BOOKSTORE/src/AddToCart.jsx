@@ -51,5 +51,6 @@ function AddToCart({ bookId, addToCart }) {
   );
 }
 
+
 // Export the AddToCart component as default
 export default AddToCart;
