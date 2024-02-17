@@ -47,7 +47,6 @@ function App() {
             <Route path="/"element={<Home/>}/>
             <Route path="/Dashboard" element={<Dashboard />} />
             <Route path="/BookList" element={<BookList addToCart={addToCart} selectedCategory={selectedCategory} searchTerm={searchTerm} />} />
-            {/* <Route path="/cart" element={<Cart cartItems={cartItems} />} /> */}
             <Route path="/footer" element={<Footer />} />
 
           </Routes>

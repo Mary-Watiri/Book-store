@@ -82,7 +82,7 @@
     width: 100%;
   }
   a{
-    /* color: white; */
+     color: white;
     text-decoration: none;
     font-size: 40px;
   }
@@ -133,15 +133,12 @@
 }
 span{
     font-size: 30px;
-}
+} 
 .leave-message input{
     width: 400px;
-    height: 100px; 
+    height: 70px; 
 }
-.leave-message textarea{
-    height: 300px;
-    width: 400px;
-}
+
 label{
     font-size: 30px;
 }
@@ -160,11 +157,11 @@ label{
 .add{
     position: absolute;
     top: 10%;
-}
+} 
 /* .image2{
   top: 30%;
   height: 20%;
   position:absolute;
   top:0%;
 } */
-
+ 
