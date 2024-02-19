@@ -1,7 +1,0 @@
-{
-    "rewrites": [
-      { "source": "/old-path", "destination": "/new-path" },
-      { "source": "/old-page", "destination": "/new-page" }
-    ]
-  }
-  
