@@ -1,11 +1,13 @@
 # Book-store
 A website application that offers a wide selection of books for all ages and interests.Whether a fan of fiction or non-fiction,or something in between find something to satisfy your reading appetite here.
 # Authors
-Mary Watiri
-Victor Muhoro
-Samuel Omoding
-Samwel Etemesi
-Glen Wamaru
+<ol>
+<li>Mary Watiri</li>
+<li>Victor Muhoro</li>
+<li>Samuel Omoding</li>
+<li>Samwel Etemesi</li>
+<li>Glen Wamaru</li>
+</ol>
 
 # Table of Contents
 Introduction Features 
