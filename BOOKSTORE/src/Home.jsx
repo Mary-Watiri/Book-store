@@ -1,17 +1,16 @@
 import React from 'react';
+import backgroundImage from './assets/Pictures/books.jpeg'
 
-// Assuming the image file is located in the same directory as the component
-import backgroundImage from '/home/mary/bbb/Book-store/BOOKSTORE/src/Pictures/books.jpeg';
 
 function Home() {
   return (
     <div
       className="home-container"
       style={{
-        backgroundImage: `url(${backgroundImage})`, // Set the background image
+        backgroundImage: `url(${backgroundImage})`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '100vh', // Adjust the height as needed
+        height: '100vh', 
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
